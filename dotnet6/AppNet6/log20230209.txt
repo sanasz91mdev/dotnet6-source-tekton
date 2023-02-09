@@ -1,0 +1,228 @@
+2023-02-09 12:11:30.889 +05:00 [DBUG] [] Found validator UserValidator
+2023-02-09 12:11:30.897 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2023-02-09 12:11:30.897 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2023-02-09 12:11:30.897 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2023-02-09 12:11:31.626 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2023-02-09 12:11:31.919 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2023-02-09 12:11:31.920 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2023-02-09 12:11:31.920 +05:00 [INFO] [] Hosting environment: Development
+2023-02-09 12:11:31.920 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dn6appk8cicd\dotnet6\AppNet6\
+2023-02-09 12:11:33.204 +05:00 [INFO] [0HMOADJFH8LJN:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2023-02-09 12:11:33.262 +05:00 [INFO] [0HMOADJFH8LJN:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2023-02-09 12:11:33.266 +05:00 [INFO] [0HMOADJFH8LJN:00000001] Http Connection: [::1:53671]
+2023-02-09 12:11:33.267 +05:00 [INFO] [0HMOADJFH8LJN:00000001] Http Scheme: [https]
+2023-02-09 12:11:33.269 +05:00 [INFO] [0HMOADJFH8LJN:00000001] Http Host: [localhost:7224]
+2023-02-09 12:11:34.181 +05:00 [INFO] [0HMOADJFH8LJN:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2023-02-09 12:11:34.182 +05:00 [INFO] [0HMOADJFH8LJN:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2023-02-09 12:11:34.185 +05:00 [INFO] [0HMOADJFH8LJN:00000005] Http Connection: [::1:53671]
+2023-02-09 12:11:34.186 +05:00 [INFO] [0HMOADJFH8LJN:00000005] Http Scheme: [https]
+2023-02-09 12:11:34.187 +05:00 [INFO] [0HMOADJFH8LJN:00000005] Http Host: [localhost:7224]
+2023-02-09 12:11:34.453 +05:00 [INFO] [0HMOADJFH8LJN:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2023-02-09 12:11:40.133 +05:00 [INFO] [0HMOADJFH8LJN:00000007] Http Method: [GET], Protoclol [HTTP/2], Path [/api/v2/users], Request Body: []
+2023-02-09 12:11:40.135 +05:00 [INFO] [0HMOADJFH8LJN:00000007] Http Headers: [{"Accept":["application/json"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2023-02-09 12:11:40.137 +05:00 [INFO] [0HMOADJFH8LJN:00000007] Http Connection: [::1:53671]
+2023-02-09 12:11:40.138 +05:00 [INFO] [0HMOADJFH8LJN:00000007] Http Scheme: [https]
+2023-02-09 12:11:40.138 +05:00 [INFO] [0HMOADJFH8LJN:00000007] Http Host: [localhost:7224]
+2023-02-09 12:11:40.172 +05:00 [INFO] [0HMOADJFH8LJN:00000007] Response Body: {
+  "name": "sana",
+  "contactNumber": "03323344553",
+  "emailAddress": "sana.zehra@gmail.com"
+}

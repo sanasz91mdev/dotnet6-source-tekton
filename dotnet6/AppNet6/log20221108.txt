@@ -1,0 +1,1004 @@
+2022-11-08 12:37:07.681 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-08 12:37:07.692 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-08 12:37:07.692 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-08 12:37:07.692 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-08 12:37:08.503 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-08 12:37:09.249 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-08 12:37:09.263 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-08 12:37:09.285 +05:00 [INFO] [] Hosting environment: Development
+2022-11-08 12:37:09.302 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-08 12:37:09.711 +05:00 [INFO] [0HMM1BG59M8TE:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-08 12:37:09.756 +05:00 [INFO] [0HMM1BG59M8TE:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-08 12:37:09.759 +05:00 [INFO] [0HMM1BG59M8TE:00000001] Http Connection: [::1:51701]
+2022-11-08 12:37:09.761 +05:00 [INFO] [0HMM1BG59M8TE:00000001] Http Scheme: [https]
+2022-11-08 12:37:09.763 +05:00 [INFO] [0HMM1BG59M8TE:00000001] Http Host: [localhost:7224]
+2022-11-08 12:37:17.077 +05:00 [INFO] [0HMM1BG59M8TE:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-08 12:37:17.080 +05:00 [INFO] [0HMM1BG59M8TE:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 12:37:17.083 +05:00 [INFO] [0HMM1BG59M8TE:00000005] Http Connection: [::1:51701]
+2022-11-08 12:37:17.085 +05:00 [INFO] [0HMM1BG59M8TE:00000005] Http Scheme: [https]
+2022-11-08 12:37:17.087 +05:00 [INFO] [0HMM1BG59M8TE:00000005] Http Host: [localhost:7224]
+2022-11-08 12:46:09.127 +05:00 [INFO] [0HMM1BG59M8TG:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-08 12:46:09.130 +05:00 [INFO] [0HMM1BG59M8TG:00000001] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 12:46:09.136 +05:00 [INFO] [0HMM1BG59M8TG:00000001] Http Connection: [::1:62389]
+2022-11-08 12:46:09.137 +05:00 [INFO] [0HMM1BG59M8TG:00000001] Http Scheme: [https]
+2022-11-08 12:46:09.139 +05:00 [INFO] [0HMM1BG59M8TG:00000001] Http Host: [localhost:7224]
+2022-11-08 12:46:10.453 +05:00 [INFO] [0HMM1BG59M8TG:00000001] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 12:46:10.474 +05:00 [INFO] [0HMM1BG59M8TG:00000001] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 12:46:11.619 +05:00 [INFO] [0HMM1BG59M8TG:00000001] Received HTTP response headers after 1131.7547ms - 200
+2022-11-08 12:46:11.636 +05:00 [INFO] [0HMM1BG59M8TG:00000001] End processing HTTP request after 1199.6023ms - 200
+2022-11-08 12:46:11.667 +05:00 [INFO] [0HMM1BG59M8TG:00000001] Calling Card service to get card
+2022-11-08 12:46:11.706 +05:00 [INFO] [0HMM1BG59M8TG:00000001] [GetCard] method of card called.
+2022-11-08 12:46:11.712 +05:00 [INFO] [0HMM1BG59M8TG:00000001] Starting span WITH context in span lib
+2022-11-08 12:46:37.382 +05:00 [WARN] [0HMM1BG59M8TG:00000001] The decimal property 'FieldId' is part of a key on entity type 'MaskField'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 12:46:37.386 +05:00 [WARN] [0HMM1BG59M8TG:00000001] The decimal property 'SettingId' is part of a key on entity type 'MaskSetting'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 12:46:37.389 +05:00 [WARN] [0HMM1BG59M8TG:00000001] The decimal property 'SettingId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 12:46:37.403 +05:00 [WARN] [0HMM1BG59M8TG:00000001] The decimal property 'FieldId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 12:49:21.427 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-08 12:49:21.434 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-08 12:49:21.434 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-08 12:49:21.434 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-08 12:49:21.805 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-08 12:49:22.083 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-08 12:49:22.084 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-08 12:49:22.084 +05:00 [INFO] [] Hosting environment: Development
+2022-11-08 12:49:22.085 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-08 12:49:23.293 +05:00 [INFO] [0HMM1BMVSKR7P:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-08 12:49:23.375 +05:00 [INFO] [0HMM1BMVSKR7P:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-08 12:49:23.379 +05:00 [INFO] [0HMM1BMVSKR7P:00000001] Http Connection: [::1:63015]
+2022-11-08 12:49:23.380 +05:00 [INFO] [0HMM1BMVSKR7P:00000001] Http Scheme: [https]
+2022-11-08 12:49:23.382 +05:00 [INFO] [0HMM1BMVSKR7P:00000001] Http Host: [localhost:7224]
+2022-11-08 12:49:23.762 +05:00 [INFO] [0HMM1BMVSKR7P:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-08 12:49:23.766 +05:00 [INFO] [0HMM1BMVSKR7P:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 12:49:23.769 +05:00 [INFO] [0HMM1BMVSKR7P:00000005] Http Connection: [::1:63015]
+2022-11-08 12:49:23.769 +05:00 [INFO] [0HMM1BMVSKR7P:00000005] Http Scheme: [https]
+2022-11-08 12:49:23.770 +05:00 [INFO] [0HMM1BMVSKR7P:00000005] Http Host: [localhost:7224]
+2022-11-08 12:49:32.883 +05:00 [INFO] [0HMM1BMVSKR7P:00000007] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-08 12:49:32.885 +05:00 [INFO] [0HMM1BMVSKR7P:00000007] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 12:49:32.890 +05:00 [INFO] [0HMM1BMVSKR7P:00000007] Http Connection: [::1:63015]
+2022-11-08 12:49:32.892 +05:00 [INFO] [0HMM1BMVSKR7P:00000007] Http Scheme: [https]
+2022-11-08 12:49:32.894 +05:00 [INFO] [0HMM1BMVSKR7P:00000007] Http Host: [localhost:7224]
+2022-11-08 12:49:33.419 +05:00 [INFO] [0HMM1BMVSKR7P:00000007] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 12:49:33.437 +05:00 [INFO] [0HMM1BMVSKR7P:00000007] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 12:49:34.463 +05:00 [INFO] [0HMM1BMVSKR7P:00000007] Received HTTP response headers after 1013.9541ms - 200
+2022-11-08 12:49:34.477 +05:00 [INFO] [0HMM1BMVSKR7P:00000007] End processing HTTP request after 1072.9491ms - 200
+2022-11-08 12:49:34.501 +05:00 [INFO] [0HMM1BMVSKR7P:00000007] Calling Card service to get card
+2022-11-08 12:49:34.526 +05:00 [INFO] [0HMM1BMVSKR7P:00000007] [GetCard] method of card called.
+2022-11-08 12:49:34.531 +05:00 [INFO] [0HMM1BMVSKR7P:00000007] Starting span WITH context in span lib
+2022-11-08 12:49:43.836 +05:00 [WARN] [0HMM1BMVSKR7P:00000007] The decimal property 'FieldId' is part of a key on entity type 'MaskField'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 12:49:43.840 +05:00 [WARN] [0HMM1BMVSKR7P:00000007] The decimal property 'SettingId' is part of a key on entity type 'MaskSetting'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 12:49:43.844 +05:00 [WARN] [0HMM1BMVSKR7P:00000007] The decimal property 'SettingId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 12:49:43.855 +05:00 [WARN] [0HMM1BMVSKR7P:00000007] The decimal property 'FieldId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 12:52:55.286 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-08 12:52:55.293 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-08 12:52:55.293 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-08 12:52:55.293 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-08 12:52:55.730 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-08 12:52:55.876 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-08 12:52:55.877 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-08 12:52:55.877 +05:00 [INFO] [] Hosting environment: Development
+2022-11-08 12:52:55.878 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-08 12:52:56.752 +05:00 [INFO] [0HMM1BOVM1VGG:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-08 12:52:56.791 +05:00 [INFO] [0HMM1BOVM1VGG:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-08 12:52:56.798 +05:00 [INFO] [0HMM1BOVM1VGG:00000001] Http Connection: [::1:63616]
+2022-11-08 12:52:56.799 +05:00 [INFO] [0HMM1BOVM1VGG:00000001] Http Scheme: [https]
+2022-11-08 12:52:56.800 +05:00 [INFO] [0HMM1BOVM1VGG:00000001] Http Host: [localhost:7224]
+2022-11-08 12:52:57.258 +05:00 [INFO] [0HMM1BOVM1VGG:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-08 12:52:57.271 +05:00 [INFO] [0HMM1BOVM1VGG:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 12:52:57.277 +05:00 [INFO] [0HMM1BOVM1VGG:00000005] Http Connection: [::1:63616]
+2022-11-08 12:52:57.278 +05:00 [INFO] [0HMM1BOVM1VGG:00000005] Http Scheme: [https]
+2022-11-08 12:52:57.279 +05:00 [INFO] [0HMM1BOVM1VGG:00000005] Http Host: [localhost:7224]
+2022-11-08 12:53:06.107 +05:00 [INFO] [0HMM1BOVM1VGG:00000007] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-08 12:53:06.110 +05:00 [INFO] [0HMM1BOVM1VGG:00000007] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 12:53:06.114 +05:00 [INFO] [0HMM1BOVM1VGG:00000007] Http Connection: [::1:63616]
+2022-11-08 12:53:06.115 +05:00 [INFO] [0HMM1BOVM1VGG:00000007] Http Scheme: [https]
+2022-11-08 12:53:06.119 +05:00 [INFO] [0HMM1BOVM1VGG:00000007] Http Host: [localhost:7224]
+2022-11-08 12:53:06.641 +05:00 [INFO] [0HMM1BOVM1VGG:00000007] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 12:53:06.660 +05:00 [INFO] [0HMM1BOVM1VGG:00000007] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 12:53:07.560 +05:00 [INFO] [0HMM1BOVM1VGG:00000007] Received HTTP response headers after 882.7424ms - 200
+2022-11-08 12:53:07.581 +05:00 [INFO] [0HMM1BOVM1VGG:00000007] End processing HTTP request after 955.9753ms - 200
+2022-11-08 12:53:07.607 +05:00 [INFO] [0HMM1BOVM1VGG:00000007] Calling Card service to get card
+2022-11-08 12:53:07.631 +05:00 [INFO] [0HMM1BOVM1VGG:00000007] [GetCard] method of card called.
+2022-11-08 12:53:07.635 +05:00 [INFO] [0HMM1BOVM1VGG:00000007] Starting span WITH context in span lib
+2022-11-08 13:19:51.983 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-08 13:19:51.992 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-08 13:19:51.992 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-08 13:19:51.992 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-08 13:19:52.525 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-08 13:19:52.694 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-08 13:19:52.695 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-08 13:19:52.695 +05:00 [INFO] [] Hosting environment: Development
+2022-11-08 13:19:52.695 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-08 13:19:53.467 +05:00 [INFO] [0HMM1C81G5DTV:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-08 13:19:53.525 +05:00 [INFO] [0HMM1C81G5DTV:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-08 13:19:53.529 +05:00 [INFO] [0HMM1C81G5DTV:00000001] Http Connection: [::1:61600]
+2022-11-08 13:19:53.529 +05:00 [INFO] [0HMM1C81G5DTV:00000001] Http Scheme: [https]
+2022-11-08 13:19:53.530 +05:00 [INFO] [0HMM1C81G5DTV:00000001] Http Host: [localhost:7224]
+2022-11-08 13:19:53.989 +05:00 [INFO] [0HMM1C81G5DTV:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-08 13:19:53.991 +05:00 [INFO] [0HMM1C81G5DTV:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 13:19:53.993 +05:00 [INFO] [0HMM1C81G5DTV:00000005] Http Connection: [::1:61600]
+2022-11-08 13:19:53.994 +05:00 [INFO] [0HMM1C81G5DTV:00000005] Http Scheme: [https]
+2022-11-08 13:19:53.995 +05:00 [INFO] [0HMM1C81G5DTV:00000005] Http Host: [localhost:7224]
+2022-11-08 13:20:09.350 +05:00 [INFO] [0HMM1C81G5DTV:00000007] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-08 13:20:09.353 +05:00 [INFO] [0HMM1C81G5DTV:00000007] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 13:20:09.355 +05:00 [INFO] [0HMM1C81G5DTV:00000007] Http Connection: [::1:61600]
+2022-11-08 13:20:09.358 +05:00 [INFO] [0HMM1C81G5DTV:00000007] Http Scheme: [https]
+2022-11-08 13:20:09.370 +05:00 [INFO] [0HMM1C81G5DTV:00000007] Http Host: [localhost:7224]
+2022-11-08 13:20:10.361 +05:00 [INFO] [0HMM1C81G5DTV:00000007] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 13:20:10.380 +05:00 [INFO] [0HMM1C81G5DTV:00000007] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 13:20:11.600 +05:00 [INFO] [0HMM1C81G5DTV:00000007] Received HTTP response headers after 1207.8264ms - 200
+2022-11-08 13:20:11.612 +05:00 [INFO] [0HMM1C81G5DTV:00000007] End processing HTTP request after 1265.038ms - 200
+2022-11-08 13:20:11.634 +05:00 [INFO] [0HMM1C81G5DTV:00000007] Calling Card service to get card
+2022-11-08 13:20:11.667 +05:00 [INFO] [0HMM1C81G5DTV:00000007] [GetCard] method of card called.
+2022-11-08 13:20:11.671 +05:00 [INFO] [0HMM1C81G5DTV:00000007] Starting span WITH context in span lib
+2022-11-08 13:20:15.372 +05:00 [WARN] [0HMM1C81G5DTV:00000007] The decimal property 'FieldId' is part of a key on entity type 'MaskField'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 13:20:15.382 +05:00 [WARN] [0HMM1C81G5DTV:00000007] The decimal property 'SettingId' is part of a key on entity type 'MaskSetting'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 13:20:15.386 +05:00 [WARN] [0HMM1C81G5DTV:00000007] The decimal property 'SettingId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 13:20:15.399 +05:00 [WARN] [0HMM1C81G5DTV:00000007] The decimal property 'FieldId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 13:25:24.249 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-08 13:25:24.255 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-08 13:25:24.255 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-08 13:25:24.255 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-08 13:25:24.729 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-08 13:25:24.896 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-08 13:25:24.897 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-08 13:25:24.898 +05:00 [INFO] [] Hosting environment: Development
+2022-11-08 13:25:24.898 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-08 13:25:25.895 +05:00 [INFO] [0HMM1CB4I3FEV:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-08 13:25:25.929 +05:00 [INFO] [0HMM1CB4I3FEV:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-08 13:25:25.933 +05:00 [INFO] [0HMM1CB4I3FEV:00000001] Http Connection: [::1:61746]
+2022-11-08 13:25:25.934 +05:00 [INFO] [0HMM1CB4I3FEV:00000001] Http Scheme: [https]
+2022-11-08 13:25:25.935 +05:00 [INFO] [0HMM1CB4I3FEV:00000001] Http Host: [localhost:7224]
+2022-11-08 13:25:26.430 +05:00 [INFO] [0HMM1CB4I3FEV:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-08 13:25:26.433 +05:00 [INFO] [0HMM1CB4I3FEV:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 13:25:26.435 +05:00 [INFO] [0HMM1CB4I3FEV:00000005] Http Connection: [::1:61746]
+2022-11-08 13:25:26.436 +05:00 [INFO] [0HMM1CB4I3FEV:00000005] Http Scheme: [https]
+2022-11-08 13:25:26.437 +05:00 [INFO] [0HMM1CB4I3FEV:00000005] Http Host: [localhost:7224]
+2022-11-08 13:25:37.171 +05:00 [INFO] [0HMM1CB4I3FEV:00000007] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-08 13:25:37.173 +05:00 [INFO] [0HMM1CB4I3FEV:00000007] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 13:25:37.177 +05:00 [INFO] [0HMM1CB4I3FEV:00000007] Http Connection: [::1:61746]
+2022-11-08 13:25:37.178 +05:00 [INFO] [0HMM1CB4I3FEV:00000007] Http Scheme: [https]
+2022-11-08 13:25:37.186 +05:00 [INFO] [0HMM1CB4I3FEV:00000007] Http Host: [localhost:7224]
+2022-11-08 13:25:37.683 +05:00 [INFO] [0HMM1CB4I3FEV:00000007] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 13:25:37.704 +05:00 [INFO] [0HMM1CB4I3FEV:00000007] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 13:25:38.805 +05:00 [INFO] [0HMM1CB4I3FEV:00000007] Received HTTP response headers after 1086.3773ms - 200
+2022-11-08 13:25:38.824 +05:00 [INFO] [0HMM1CB4I3FEV:00000007] End processing HTTP request after 1154.1739ms - 200
+2022-11-08 13:25:38.849 +05:00 [INFO] [0HMM1CB4I3FEV:00000007] Calling Card service to get card
+2022-11-08 13:25:38.879 +05:00 [INFO] [0HMM1CB4I3FEV:00000007] [GetCard] method of card called.
+2022-11-08 13:25:38.882 +05:00 [INFO] [0HMM1CB4I3FEV:00000007] Starting span WITH context in span lib
+2022-11-08 13:25:48.207 +05:00 [WARN] [0HMM1CB4I3FEV:00000007] The decimal property 'FieldId' is part of a key on entity type 'MaskField'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 13:25:48.222 +05:00 [WARN] [0HMM1CB4I3FEV:00000007] The decimal property 'SettingId' is part of a key on entity type 'MaskSetting'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 13:25:48.226 +05:00 [WARN] [0HMM1CB4I3FEV:00000007] The decimal property 'SettingId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 13:25:48.229 +05:00 [WARN] [0HMM1CB4I3FEV:00000007] The decimal property 'FieldId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 13:26:12.647 +05:00 [INFO] [0HMM1CB4I3FEV:00000007] Card details {"MaskedCard":"5123456789012346","NameOnCard":"Spending","CardNumber":"******","$type":"CardResponse"}
+2022-11-08 13:26:13.578 +05:00 [INFO] [0HMM1CB4I3FEV:00000007] Response Body: {"TokenType":"StartObject","ValueKind":"Object","Item":null,"DebuggerDisplay":"ValueKind = Object : \"{\"cardNumber\":\"5123456789012346\",\"maskedCard\":\"5123456789012346\",\"nameOnCard\":\"Spending\"}\"","$type":"JsonElement"}
+2022-11-08 13:26:19.648 +05:00 [INFO] [0HMM1CB4I3FEV:00000009] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-08 13:26:19.650 +05:00 [INFO] [0HMM1CB4I3FEV:00000009] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 13:26:19.653 +05:00 [INFO] [0HMM1CB4I3FEV:00000009] Http Connection: [::1:61746]
+2022-11-08 13:26:19.654 +05:00 [INFO] [0HMM1CB4I3FEV:00000009] Http Scheme: [https]
+2022-11-08 13:26:19.656 +05:00 [INFO] [0HMM1CB4I3FEV:00000009] Http Host: [localhost:7224]
+2022-11-08 13:26:19.661 +05:00 [INFO] [0HMM1CB4I3FEV:00000009] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 13:26:19.662 +05:00 [INFO] [0HMM1CB4I3FEV:00000009] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 13:26:20.037 +05:00 [INFO] [0HMM1CB4I3FEV:00000009] Received HTTP response headers after 372.8472ms - 200
+2022-11-08 13:26:20.041 +05:00 [INFO] [0HMM1CB4I3FEV:00000009] End processing HTTP request after 380.2942ms - 200
+2022-11-08 13:26:20.050 +05:00 [INFO] [0HMM1CB4I3FEV:00000009] Calling Card service to get card
+2022-11-08 13:26:20.062 +05:00 [INFO] [0HMM1CB4I3FEV:00000009] [GetCard] method of card called.
+2022-11-08 13:26:20.064 +05:00 [INFO] [0HMM1CB4I3FEV:00000009] Starting span WITH context in span lib
+2022-11-08 13:27:45.026 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-08 13:27:45.036 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-08 13:27:45.036 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-08 13:27:45.036 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-08 13:27:45.482 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-08 13:27:45.867 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-08 13:27:45.873 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-08 13:27:45.875 +05:00 [INFO] [] Hosting environment: Development
+2022-11-08 13:27:45.876 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-08 13:27:46.254 +05:00 [INFO] [0HMM1CCECFE9R:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-08 13:27:46.293 +05:00 [INFO] [0HMM1CCECFE9R:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-08 13:27:46.299 +05:00 [INFO] [0HMM1CCECFE9R:00000001] Http Connection: [::1:61813]
+2022-11-08 13:27:46.301 +05:00 [INFO] [0HMM1CCECFE9R:00000001] Http Scheme: [https]
+2022-11-08 13:27:46.302 +05:00 [INFO] [0HMM1CCECFE9R:00000001] Http Host: [localhost:7224]
+2022-11-08 13:27:46.710 +05:00 [INFO] [0HMM1CCECFE9R:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-08 13:27:46.712 +05:00 [INFO] [0HMM1CCECFE9R:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 13:27:46.716 +05:00 [INFO] [0HMM1CCECFE9R:00000005] Http Connection: [::1:61813]
+2022-11-08 13:27:46.717 +05:00 [INFO] [0HMM1CCECFE9R:00000005] Http Scheme: [https]
+2022-11-08 13:27:46.717 +05:00 [INFO] [0HMM1CCECFE9R:00000005] Http Host: [localhost:7224]
+2022-11-08 13:28:03.335 +05:00 [INFO] [0HMM1CCECFE9R:00000007] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-08 13:28:03.338 +05:00 [INFO] [0HMM1CCECFE9R:00000007] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 13:28:03.348 +05:00 [INFO] [0HMM1CCECFE9R:00000007] Http Connection: [::1:61813]
+2022-11-08 13:28:03.350 +05:00 [INFO] [0HMM1CCECFE9R:00000007] Http Scheme: [https]
+2022-11-08 13:28:03.352 +05:00 [INFO] [0HMM1CCECFE9R:00000007] Http Host: [localhost:7224]
+2022-11-08 13:28:03.851 +05:00 [INFO] [0HMM1CCECFE9R:00000007] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 13:28:03.871 +05:00 [INFO] [0HMM1CCECFE9R:00000007] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 13:28:04.988 +05:00 [INFO] [0HMM1CCECFE9R:00000007] Received HTTP response headers after 1106.4206ms - 200
+2022-11-08 13:28:05.003 +05:00 [INFO] [0HMM1CCECFE9R:00000007] End processing HTTP request after 1168.1572ms - 200
+2022-11-08 13:28:05.029 +05:00 [INFO] [0HMM1CCECFE9R:00000007] Calling Card service to get card
+2022-11-08 13:28:05.057 +05:00 [INFO] [0HMM1CCECFE9R:00000007] [GetCard] method of card called.
+2022-11-08 13:28:05.063 +05:00 [INFO] [0HMM1CCECFE9R:00000007] Starting span WITH context in span lib
+2022-11-08 13:28:08.819 +05:00 [WARN] [0HMM1CCECFE9R:00000007] The decimal property 'FieldId' is part of a key on entity type 'MaskField'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 13:28:08.824 +05:00 [WARN] [0HMM1CCECFE9R:00000007] The decimal property 'SettingId' is part of a key on entity type 'MaskSetting'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 13:28:08.829 +05:00 [WARN] [0HMM1CCECFE9R:00000007] The decimal property 'SettingId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 13:28:08.836 +05:00 [WARN] [0HMM1CCECFE9R:00000007] The decimal property 'FieldId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 13:28:40.505 +05:00 [INFO] [0HMM1CCECFE9R:00000007] Card details {"MaskedCard":"5123456789012346","NameOnCard":"Spending","CardNumber":"******","$type":"CardResponse"}
+2022-11-08 13:28:40.521 +05:00 [INFO] [0HMM1CCECFE9R:00000007] Response Body: {"TokenType":"StartObject","ValueKind":"Object","Item":null,"DebuggerDisplay":"ValueKind = Object : \"{\"cardNumber\":\"5123456789012346\",\"maskedCard\":\"5123456789012346\",\"nameOnCard\":\"Spending\"}\"","$type":"JsonElement"}
+2022-11-08 13:28:43.788 +05:00 [INFO] [0HMM1CCECFE9R:00000009] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-08 13:28:43.792 +05:00 [INFO] [0HMM1CCECFE9R:00000009] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 13:28:43.798 +05:00 [INFO] [0HMM1CCECFE9R:00000009] Http Connection: [::1:61813]
+2022-11-08 13:28:43.799 +05:00 [INFO] [0HMM1CCECFE9R:00000009] Http Scheme: [https]
+2022-11-08 13:28:43.800 +05:00 [INFO] [0HMM1CCECFE9R:00000009] Http Host: [localhost:7224]
+2022-11-08 13:28:43.803 +05:00 [INFO] [0HMM1CCECFE9R:00000009] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 13:28:43.807 +05:00 [INFO] [0HMM1CCECFE9R:00000009] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 13:28:44.279 +05:00 [INFO] [0HMM1CCECFE9R:00000009] Received HTTP response headers after 458.9327ms - 200
+2022-11-08 13:28:44.282 +05:00 [INFO] [0HMM1CCECFE9R:00000009] End processing HTTP request after 479.2634ms - 200
+2022-11-08 13:28:44.298 +05:00 [INFO] [0HMM1CCECFE9R:00000009] Calling Card service to get card
+2022-11-08 13:28:44.299 +05:00 [INFO] [0HMM1CCECFE9R:00000009] [GetCard] method of card called.
+2022-11-08 13:28:44.303 +05:00 [INFO] [0HMM1CCECFE9R:00000009] Starting span WITH context in span lib
+2022-11-08 14:14:14.402 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-08 14:14:14.421 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-08 14:14:14.421 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-08 14:14:14.421 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-08 14:14:14.800 +05:00 [FATL] [] Application startup exception
+System.InvalidOperationException: Cannot resolve scoped service 'DataAccess.EFCore.Mask.MaskContext' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(Type serviceType, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.<ConfigureApplication>b__26_0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2022-11-08 14:24:24.522 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-08 14:24:24.528 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-08 14:24:24.528 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-08 14:24:24.528 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-08 14:24:24.716 +05:00 [FATL] [] Application startup exception
+System.InvalidOperationException: Cannot resolve scoped service 'DataAccess.EFCore.Mask.MaskContext' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(Type serviceType, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.<ConfigureApplication>b__26_0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2022-11-08 14:25:29.043 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-08 14:25:29.048 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-08 14:25:29.048 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-08 14:25:29.048 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-08 14:25:41.804 +05:00 [FATL] [] Application startup exception
+System.InvalidOperationException: Cannot resolve scoped service 'DataAccess.EFCore.Mask.MaskContext' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(Type serviceType, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.<ConfigureApplication>b__26_0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2022-11-08 14:26:36.441 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-08 14:26:36.445 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-08 14:26:36.446 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-08 14:26:36.446 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-08 14:26:36.685 +05:00 [FATL] [] Application startup exception
+System.InvalidOperationException: Cannot resolve scoped service 'DataAccess.EFCore.Mask.MaskContext' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(Type serviceType, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.<ConfigureApplication>b__26_0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2022-11-08 14:30:10.673 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-08 14:30:10.680 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-08 14:30:10.680 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-08 14:30:10.680 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-08 14:30:12.418 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-08 14:30:12.611 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-08 14:30:12.612 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-08 14:30:12.613 +05:00 [INFO] [] Hosting environment: Development
+2022-11-08 14:30:12.614 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-08 14:30:25.395 +05:00 [INFO] [0HMM1DFB2170B:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-08 14:30:25.468 +05:00 [INFO] [0HMM1DFB2170B:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-08 14:30:25.473 +05:00 [INFO] [0HMM1DFB2170B:00000001] Http Connection: [::1:52702]
+2022-11-08 14:30:25.475 +05:00 [INFO] [0HMM1DFB2170B:00000001] Http Scheme: [https]
+2022-11-08 14:30:25.477 +05:00 [INFO] [0HMM1DFB2170B:00000001] Http Host: [localhost:7224]
+2022-11-08 14:30:40.649 +05:00 [WARN] [0HMM1DFB2170B:00000001] The decimal property 'FieldId' is part of a key on entity type 'MaskField'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 14:30:40.653 +05:00 [WARN] [0HMM1DFB2170B:00000001] The decimal property 'SettingId' is part of a key on entity type 'MaskSetting'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 14:30:40.657 +05:00 [WARN] [0HMM1DFB2170B:00000001] The decimal property 'SettingId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 14:30:40.663 +05:00 [WARN] [0HMM1DFB2170B:00000001] The decimal property 'FieldId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 14:31:00.598 +05:00 [EROR] [] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at JsonMasking.JsonMasking.MaskFields(String json, String[] blacklist, String mask)
+   at DigitalBanking.ServiceExtensions.RequestResponseLoggingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in D:\TeamArchitects\code\dotnet6\AppNet6\ServiceExtensions\RequestResponseLogMiddleware.cs:line 73
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-08 14:31:00.809 +05:00 [EROR] [] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+Object name: 'MemoryStream'.
+   at System.IO.Stream.ValidateCopyToArguments(Stream destination, Int32 bufferSize)
+   at System.IO.MemoryStream.CopyToAsync(Stream destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at System.IO.Stream.CopyToAsync(Stream destination)
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-08 14:31:00.819 +05:00 [EROR] [] Connection id "0HMM1DFB2170B", Request id "0HMM1DFB2170B:00000001": An unhandled exception was thrown by the application.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at JsonMasking.JsonMasking.MaskFields(String json, String[] blacklist, String mask)
+   at DigitalBanking.ServiceExtensions.RequestResponseLoggingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in D:\TeamArchitects\code\dotnet6\AppNet6\ServiceExtensions\RequestResponseLogMiddleware.cs:line 73
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.ExecuteWithFilterAsync(IHttpSocketAdapter injectScriptSocket, String requestId, HttpContext httpContext)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-11-08 14:31:57.754 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-08 14:31:57.762 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-08 14:31:57.762 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-08 14:31:57.762 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-08 14:31:59.055 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-08 14:31:59.416 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-08 14:31:59.418 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-08 14:31:59.418 +05:00 [INFO] [] Hosting environment: Development
+2022-11-08 14:31:59.419 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-08 14:32:00.558 +05:00 [INFO] [0HMM1DGAU4A6A:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-08 14:32:00.594 +05:00 [INFO] [0HMM1DGAU4A6A:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-08 14:32:00.598 +05:00 [INFO] [0HMM1DGAU4A6A:00000001] Http Connection: [::1:52757]
+2022-11-08 14:32:00.598 +05:00 [INFO] [0HMM1DGAU4A6A:00000001] Http Scheme: [https]
+2022-11-08 14:32:00.600 +05:00 [INFO] [0HMM1DGAU4A6A:00000001] Http Host: [localhost:7224]
+2022-11-08 14:32:02.544 +05:00 [WARN] [0HMM1DGAU4A6A:00000001] The decimal property 'FieldId' is part of a key on entity type 'MaskField'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 14:32:02.547 +05:00 [WARN] [0HMM1DGAU4A6A:00000001] The decimal property 'SettingId' is part of a key on entity type 'MaskSetting'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 14:32:02.549 +05:00 [WARN] [0HMM1DGAU4A6A:00000001] The decimal property 'SettingId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 14:32:02.551 +05:00 [WARN] [0HMM1DGAU4A6A:00000001] The decimal property 'FieldId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 14:32:04.747 +05:00 [EROR] [] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at JsonMasking.JsonMasking.MaskFields(String json, String[] blacklist, String mask)
+   at DigitalBanking.ServiceExtensions.RequestResponseLoggingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in D:\TeamArchitects\code\dotnet6\AppNet6\ServiceExtensions\RequestResponseLogMiddleware.cs:line 73
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-08 14:32:04.911 +05:00 [EROR] [] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+Object name: 'MemoryStream'.
+   at System.IO.Stream.ValidateCopyToArguments(Stream destination, Int32 bufferSize)
+   at System.IO.MemoryStream.CopyToAsync(Stream destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at System.IO.Stream.CopyToAsync(Stream destination)
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-08 14:32:04.925 +05:00 [EROR] [] Connection id "0HMM1DGAU4A6A", Request id "0HMM1DGAU4A6A:00000001": An unhandled exception was thrown by the application.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at JsonMasking.JsonMasking.MaskFields(String json, String[] blacklist, String mask)
+   at DigitalBanking.ServiceExtensions.RequestResponseLoggingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in D:\TeamArchitects\code\dotnet6\AppNet6\ServiceExtensions\RequestResponseLogMiddleware.cs:line 73
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.ExecuteWithFilterAsync(IHttpSocketAdapter injectScriptSocket, String requestId, HttpContext httpContext)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-11-08 14:32:21.456 +05:00 [INFO] [0HMM1DGAU4A6A:00000003] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-08 14:32:21.458 +05:00 [INFO] [0HMM1DGAU4A6A:00000003] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cache-Control":["max-age=0"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Upgrade-Insecure-Requests":["1"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"]}]
+2022-11-08 14:32:21.461 +05:00 [INFO] [0HMM1DGAU4A6A:00000003] Http Connection: [::1:52757]
+2022-11-08 14:32:21.462 +05:00 [INFO] [0HMM1DGAU4A6A:00000003] Http Scheme: [https]
+2022-11-08 14:32:21.462 +05:00 [INFO] [0HMM1DGAU4A6A:00000003] Http Host: [localhost:7224]
+2022-11-08 14:32:53.772 +05:00 [EROR] [] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at JsonMasking.JsonMasking.MaskFields(String json, String[] blacklist, String mask)
+   at DigitalBanking.ServiceExtensions.RequestResponseLoggingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in D:\TeamArchitects\code\dotnet6\AppNet6\ServiceExtensions\RequestResponseLogMiddleware.cs:line 73
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-08 14:32:53.793 +05:00 [EROR] [] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+Object name: 'MemoryStream'.
+   at System.IO.Stream.ValidateCopyToArguments(Stream destination, Int32 bufferSize)
+   at System.IO.MemoryStream.CopyToAsync(Stream destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at System.IO.Stream.CopyToAsync(Stream destination)
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-08 14:32:53.802 +05:00 [EROR] [] Connection id "0HMM1DGAU4A6A", Request id "0HMM1DGAU4A6A:00000003": An unhandled exception was thrown by the application.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at JsonMasking.JsonMasking.MaskFields(String json, String[] blacklist, String mask)
+   at DigitalBanking.ServiceExtensions.RequestResponseLoggingMiddleware.Invoke(HttpContext context, ILogger`1 logger) in D:\TeamArchitects\code\dotnet6\AppNet6\ServiceExtensions\RequestResponseLogMiddleware.cs:line 73
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.ExecuteWithFilterAsync(IHttpSocketAdapter injectScriptSocket, String requestId, HttpContext httpContext)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-11-08 14:33:08.967 +05:00 [INFO] [0HMM1DGAU4A6A:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-08 14:33:08.969 +05:00 [INFO] [0HMM1DGAU4A6A:00000005] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cache-Control":["max-age=0"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Upgrade-Insecure-Requests":["1"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"]}]
+2022-11-08 14:33:08.972 +05:00 [INFO] [0HMM1DGAU4A6A:00000005] Http Connection: [::1:52757]
+2022-11-08 14:33:08.973 +05:00 [INFO] [0HMM1DGAU4A6A:00000005] Http Scheme: [https]
+2022-11-08 14:33:08.974 +05:00 [INFO] [0HMM1DGAU4A6A:00000005] Http Host: [localhost:7224]
+2022-11-08 14:33:11.936 +05:00 [INFO] [0HMM1DGAU4A6A:00000009] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-08 14:33:11.937 +05:00 [INFO] [0HMM1DGAU4A6A:00000009] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 14:33:11.940 +05:00 [INFO] [0HMM1DGAU4A6A:00000009] Http Connection: [::1:52757]
+2022-11-08 14:33:11.941 +05:00 [INFO] [0HMM1DGAU4A6A:00000009] Http Scheme: [https]
+2022-11-08 14:33:11.942 +05:00 [INFO] [0HMM1DGAU4A6A:00000009] Http Host: [localhost:7224]
+2022-11-08 14:33:14.050 +05:00 [INFO] [0HMM1DGAU4A6A:00000009] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2022-11-08 14:33:23.741 +05:00 [INFO] [0HMM1DGAU4A6A:0000000B] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-08 14:33:23.742 +05:00 [INFO] [0HMM1DGAU4A6A:0000000B] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 14:33:23.745 +05:00 [INFO] [0HMM1DGAU4A6A:0000000B] Http Connection: [::1:52757]
+2022-11-08 14:33:23.746 +05:00 [INFO] [0HMM1DGAU4A6A:0000000B] Http Scheme: [https]
+2022-11-08 14:33:23.747 +05:00 [INFO] [0HMM1DGAU4A6A:0000000B] Http Host: [localhost:7224]
+2022-11-08 14:33:33.361 +05:00 [INFO] [0HMM1DGAU4A6A:0000000B] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 14:33:33.372 +05:00 [INFO] [0HMM1DGAU4A6A:0000000B] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 14:33:34.120 +05:00 [INFO] [0HMM1DGAU4A6A:0000000B] Received HTTP response headers after 735.7118ms - 200
+2022-11-08 14:33:34.133 +05:00 [INFO] [0HMM1DGAU4A6A:0000000B] End processing HTTP request after 778.3143ms - 200
+2022-11-08 14:33:34.157 +05:00 [INFO] [0HMM1DGAU4A6A:0000000B] Calling Card service to get card
+2022-11-08 14:33:34.159 +05:00 [INFO] [0HMM1DGAU4A6A:0000000B] [GetCard] method of card called.
+2022-11-08 14:33:34.160 +05:00 [INFO] [0HMM1DGAU4A6A:0000000B] Starting span WITH context in span lib
+2022-11-08 14:33:34.620 +05:00 [INFO] [0HMM1DGAU4A6A:0000000B] Card details {"MaskedCard":"5123456789012346","NameOnCard":"Spending","CardNumber":"******","$type":"CardResponse"}
+2022-11-08 14:33:48.427 +05:00 [INFO] [0HMM1DGAU4A6A:0000000B] Response Body: {
+  "cardNumber": "****",
+  "maskedCard": "5123456789012346",
+  "nameOnCard": "Spending"
+}
+2022-11-08 14:55:51.986 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-08 14:55:51.995 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-08 14:55:51.995 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-08 14:55:51.995 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-08 14:55:53.814 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-08 14:55:54.102 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-08 14:55:54.103 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-08 14:55:54.104 +05:00 [INFO] [] Hosting environment: Development
+2022-11-08 14:55:54.106 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-08 14:55:55.216 +05:00 [INFO] [0HMM1DTMFQJJP:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-08 14:55:55.258 +05:00 [INFO] [0HMM1DTMFQJJP:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-08 14:55:55.262 +05:00 [INFO] [0HMM1DTMFQJJP:00000001] Http Connection: [::1:53530]
+2022-11-08 14:55:55.263 +05:00 [INFO] [0HMM1DTMFQJJP:00000001] Http Scheme: [https]
+2022-11-08 14:55:55.264 +05:00 [INFO] [0HMM1DTMFQJJP:00000001] Http Host: [localhost:7224]
+2022-11-08 14:55:59.216 +05:00 [WARN] [0HMM1DTMFQJJP:00000001] The decimal property 'FieldId' is part of a key on entity type 'MaskField'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 14:55:59.221 +05:00 [WARN] [0HMM1DTMFQJJP:00000001] The decimal property 'SettingId' is part of a key on entity type 'MaskSetting'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 14:55:59.224 +05:00 [WARN] [0HMM1DTMFQJJP:00000001] The decimal property 'SettingId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 14:55:59.234 +05:00 [WARN] [0HMM1DTMFQJJP:00000001] The decimal property 'FieldId' is part of a key on entity type 'MaskSettingDetail'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2022-11-08 14:56:02.650 +05:00 [INFO] [0HMM1DTMFQJJP:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-08 14:56:02.651 +05:00 [INFO] [0HMM1DTMFQJJP:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 14:56:02.653 +05:00 [INFO] [0HMM1DTMFQJJP:00000005] Http Connection: [::1:53530]
+2022-11-08 14:56:02.654 +05:00 [INFO] [0HMM1DTMFQJJP:00000005] Http Scheme: [https]
+2022-11-08 14:56:02.654 +05:00 [INFO] [0HMM1DTMFQJJP:00000005] Http Host: [localhost:7224]
+2022-11-08 14:56:03.869 +05:00 [INFO] [0HMM1DTMFQJJP:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2022-11-08 14:56:16.453 +05:00 [INFO] [0HMM1DTMFQJJP:00000007] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-08 14:56:16.459 +05:00 [INFO] [0HMM1DTMFQJJP:00000007] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 14:56:16.461 +05:00 [INFO] [0HMM1DTMFQJJP:00000007] Http Connection: [::1:53530]
+2022-11-08 14:56:16.462 +05:00 [INFO] [0HMM1DTMFQJJP:00000007] Http Scheme: [https]
+2022-11-08 14:56:16.463 +05:00 [INFO] [0HMM1DTMFQJJP:00000007] Http Host: [localhost:7224]
+2022-11-08 14:56:18.089 +05:00 [INFO] [0HMM1DTMFQJJP:00000007] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 14:56:18.100 +05:00 [INFO] [0HMM1DTMFQJJP:00000007] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 14:56:18.918 +05:00 [INFO] [0HMM1DTMFQJJP:00000007] Received HTTP response headers after 811.3525ms - 200
+2022-11-08 14:56:18.925 +05:00 [INFO] [0HMM1DTMFQJJP:00000007] End processing HTTP request after 840.1831ms - 200
+2022-11-08 14:56:18.936 +05:00 [INFO] [0HMM1DTMFQJJP:00000007] Calling Card service to get card
+2022-11-08 14:56:18.938 +05:00 [INFO] [0HMM1DTMFQJJP:00000007] [GetCard] method of card called.
+2022-11-08 14:56:18.939 +05:00 [INFO] [0HMM1DTMFQJJP:00000007] Starting span WITH context in span lib
+2022-11-08 14:56:20.942 +05:00 [INFO] [0HMM1DTMFQJJP:00000007] Response Body: {
+  "cardNumber": "****",
+  "maskedCard": "5123456789012346",
+  "nameOnCard": "Spending"
+}
+2022-11-08 14:56:27.903 +05:00 [INFO] [0HMM1DTMFQJJP:00000009] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-08 14:56:27.904 +05:00 [INFO] [0HMM1DTMFQJJP:00000009] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 14:56:27.905 +05:00 [INFO] [0HMM1DTMFQJJP:00000009] Http Connection: [::1:53530]
+2022-11-08 14:56:27.906 +05:00 [INFO] [0HMM1DTMFQJJP:00000009] Http Scheme: [https]
+2022-11-08 14:56:27.906 +05:00 [INFO] [0HMM1DTMFQJJP:00000009] Http Host: [localhost:7224]
+2022-11-08 14:56:39.830 +05:00 [INFO] [0HMM1DTMFQJJP:00000009] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 14:56:39.831 +05:00 [INFO] [0HMM1DTMFQJJP:00000009] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 14:56:40.192 +05:00 [INFO] [0HMM1DTMFQJJP:00000009] Received HTTP response headers after 359.4399ms - 200
+2022-11-08 14:56:40.194 +05:00 [INFO] [0HMM1DTMFQJJP:00000009] End processing HTTP request after 364.0695ms - 200
+2022-11-08 14:56:40.195 +05:00 [INFO] [0HMM1DTMFQJJP:00000009] Calling Card service to get card
+2022-11-08 14:56:40.196 +05:00 [INFO] [0HMM1DTMFQJJP:00000009] [GetCard] method of card called.
+2022-11-08 14:56:40.196 +05:00 [INFO] [0HMM1DTMFQJJP:00000009] Starting span WITH context in span lib
+2022-11-08 14:57:01.003 +05:00 [INFO] [0HMM1DTMFQJJP:00000009] Response Body: {
+  "cardNumber": "****",
+  "maskedCard": "5123456789012346",
+  "nameOnCard": "Spending"
+}
+2022-11-08 14:57:03.425 +05:00 [INFO] [0HMM1DTMFQJJP:0000000B] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-08 14:57:03.426 +05:00 [INFO] [0HMM1DTMFQJJP:0000000B] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 14:57:03.430 +05:00 [INFO] [0HMM1DTMFQJJP:0000000B] Http Connection: [::1:53530]
+2022-11-08 14:57:03.432 +05:00 [INFO] [0HMM1DTMFQJJP:0000000B] Http Scheme: [https]
+2022-11-08 14:57:03.432 +05:00 [INFO] [0HMM1DTMFQJJP:0000000B] Http Host: [localhost:7224]
+2022-11-08 14:57:23.866 +05:00 [INFO] [0HMM1DTMFQJJP:0000000B] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 14:57:23.867 +05:00 [INFO] [0HMM1DTMFQJJP:0000000B] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 14:57:24.242 +05:00 [INFO] [0HMM1DTMFQJJP:0000000B] Received HTTP response headers after 373.8987ms - 200
+2022-11-08 14:57:24.244 +05:00 [INFO] [0HMM1DTMFQJJP:0000000B] End processing HTTP request after 378.6362ms - 200
+2022-11-08 14:57:24.246 +05:00 [INFO] [0HMM1DTMFQJJP:0000000B] Calling Card service to get card
+2022-11-08 14:57:24.247 +05:00 [INFO] [0HMM1DTMFQJJP:0000000B] [GetCard] method of card called.
+2022-11-08 14:57:24.247 +05:00 [INFO] [0HMM1DTMFQJJP:0000000B] Starting span WITH context in span lib
+2022-11-08 14:57:25.448 +05:00 [INFO] [0HMM1DTMFQJJP:0000000B] Response Body: {
+  "cardNumber": "****",
+  "maskedCard": "5123456789012346",
+  "nameOnCard": "Spending"
+}
+2022-11-08 15:29:20.888 +05:00 [INFO] [0HMM1DTMFQJJP:0000000D] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-08 15:29:20.889 +05:00 [INFO] [0HMM1DTMFQJJP:0000000D] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 15:29:20.891 +05:00 [INFO] [0HMM1DTMFQJJP:0000000D] Http Connection: [::1:53530]
+2022-11-08 15:29:20.892 +05:00 [INFO] [0HMM1DTMFQJJP:0000000D] Http Scheme: [https]
+2022-11-08 15:29:20.893 +05:00 [INFO] [0HMM1DTMFQJJP:0000000D] Http Host: [localhost:7224]
+2022-11-08 15:29:55.321 +05:00 [INFO] [0HMM1DTMFQJJP:0000000D] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 15:29:55.327 +05:00 [INFO] [0HMM1DTMFQJJP:0000000D] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 15:29:56.041 +05:00 [INFO] [0HMM1DTMFQJJP:0000000D] Received HTTP response headers after 709.2586ms - 200
+2022-11-08 15:29:56.043 +05:00 [INFO] [0HMM1DTMFQJJP:0000000D] End processing HTTP request after 721.502ms - 200
+2022-11-08 15:29:56.045 +05:00 [INFO] [0HMM1DTMFQJJP:0000000D] Calling Card service to get card
+2022-11-08 15:29:56.047 +05:00 [INFO] [0HMM1DTMFQJJP:0000000D] [GetCard] method of card called.
+2022-11-08 15:29:56.051 +05:00 [INFO] [0HMM1DTMFQJJP:0000000D] Starting span WITH context in span lib
+2022-11-08 15:29:57.271 +05:00 [INFO] [0HMM1DTMFQJJP:0000000D] Response Body: {
+  "cardNumber": "****",
+  "maskedCard": "5123456789012346",
+  "nameOnCard": "Spending"
+}
+2022-11-08 15:30:00.469 +05:00 [INFO] [0HMM1DTMFQJJP:0000000F] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-08 15:30:00.476 +05:00 [INFO] [0HMM1DTMFQJJP:0000000F] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 15:30:00.478 +05:00 [INFO] [0HMM1DTMFQJJP:0000000F] Http Connection: [::1:53530]
+2022-11-08 15:30:00.479 +05:00 [INFO] [0HMM1DTMFQJJP:0000000F] Http Scheme: [https]
+2022-11-08 15:30:00.480 +05:00 [INFO] [0HMM1DTMFQJJP:0000000F] Http Host: [localhost:7224]
+2022-11-08 15:30:39.601 +05:00 [INFO] [0HMM1DTMFQJJP:0000000F] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 15:30:39.625 +05:00 [INFO] [0HMM1DTMFQJJP:0000000F] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 15:30:40.002 +05:00 [INFO] [0HMM1DTMFQJJP:0000000F] Received HTTP response headers after 368.0018ms - 200
+2022-11-08 15:30:40.004 +05:00 [INFO] [0HMM1DTMFQJJP:0000000F] End processing HTTP request after 403.2142ms - 200
+2022-11-08 15:30:40.007 +05:00 [INFO] [0HMM1DTMFQJJP:0000000F] Calling Card service to get card
+2022-11-08 15:30:40.008 +05:00 [INFO] [0HMM1DTMFQJJP:0000000F] [GetCard] method of card called.
+2022-11-08 15:30:40.009 +05:00 [INFO] [0HMM1DTMFQJJP:0000000F] Starting span WITH context in span lib
+2022-11-08 15:30:41.976 +05:00 [INFO] [0HMM1DTMFQJJP:0000000F] Response Body: {
+  "cardNumber": "****",
+  "maskedCard": "5123456789012346",
+  "nameOnCard": "Spending"
+}
+2022-11-08 15:31:28.741 +05:00 [INFO] [0HMM1DTMFQJJP:00000011] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-08 15:31:28.743 +05:00 [INFO] [0HMM1DTMFQJJP:00000011] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-08 15:31:28.746 +05:00 [INFO] [0HMM1DTMFQJJP:00000011] Http Connection: [::1:53530]
+2022-11-08 15:31:28.747 +05:00 [INFO] [0HMM1DTMFQJJP:00000011] Http Scheme: [https]
+2022-11-08 15:31:28.750 +05:00 [INFO] [0HMM1DTMFQJJP:00000011] Http Host: [localhost:7224]
+2022-11-08 15:31:38.174 +05:00 [INFO] [0HMM1DTMFQJJP:00000011] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 15:31:38.178 +05:00 [INFO] [0HMM1DTMFQJJP:00000011] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-08 15:31:38.565 +05:00 [INFO] [0HMM1DTMFQJJP:00000011] Received HTTP response headers after 376.8618ms - 200
+2022-11-08 15:31:38.566 +05:00 [INFO] [0HMM1DTMFQJJP:00000011] End processing HTTP request after 392.2661ms - 200
+2022-11-08 15:31:38.571 +05:00 [INFO] [0HMM1DTMFQJJP:00000011] Calling Card service to get card
+2022-11-08 15:31:38.583 +05:00 [INFO] [0HMM1DTMFQJJP:00000011] [GetCard] method of card called.
+2022-11-08 15:31:38.584 +05:00 [INFO] [0HMM1DTMFQJJP:00000011] Starting span WITH context in span lib
+2022-11-08 15:31:40.734 +05:00 [INFO] [0HMM1DTMFQJJP:00000011] Response Body: {
+  "cardNumber": "****",
+  "maskedCard": "5123456789012346",
+  "nameOnCard": "Spending"
+}

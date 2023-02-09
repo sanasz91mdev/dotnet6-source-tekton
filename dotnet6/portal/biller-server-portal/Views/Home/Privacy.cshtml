@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+<input type="button" value="OK" onclick="onClick_Privacy()" />
+
+
+<script type="text/javascript">
+
+    function onClick_Privacy() {
+
+        $.ajax({
+            url: "@Url.Action("PrivacyPost", "Home")",
+            data: "dataString",
+            method: "POST",
+            dataType: 'json',
+            success: function (data) {
+                if(data.error == false)
+                {
+                    alert(data.data.values[0].name);
+                }
+            },
+            error:function (error){
+                alert(error);
+            }
+        });
+    }
+
+</script>

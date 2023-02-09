@@ -1,0 +1,80 @@
+2022-11-01 12:06:40.045 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-01 12:06:40.053 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-01 12:06:40.053 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-01 12:06:40.053 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-01 12:06:40.603 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-01 12:06:41.528 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-01 12:06:41.529 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-01 12:06:41.529 +05:00 [INFO] [] Hosting environment: Development
+2022-11-01 12:06:41.530 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-01 12:06:41.939 +05:00 [INFO] [0HMLRQUG33AUG:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-01 12:06:42.050 +05:00 [INFO] [0HMLRQUG33AUG:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-01 12:06:42.053 +05:00 [INFO] [0HMLRQUG33AUG:00000001] Http Connection: [::1:59809]
+2022-11-01 12:06:42.054 +05:00 [INFO] [0HMLRQUG33AUG:00000001] Http Scheme: [https]
+2022-11-01 12:06:42.055 +05:00 [INFO] [0HMLRQUG33AUG:00000001] Http Host: [localhost:7224]
+2022-11-01 12:06:45.009 +05:00 [INFO] [0HMLRQUG33AUG:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-01 12:06:45.010 +05:00 [INFO] [0HMLRQUG33AUG:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-01 12:06:45.012 +05:00 [INFO] [0HMLRQUG33AUG:00000005] Http Connection: [::1:59809]
+2022-11-01 12:06:45.012 +05:00 [INFO] [0HMLRQUG33AUG:00000005] Http Scheme: [https]
+2022-11-01 12:06:45.013 +05:00 [INFO] [0HMLRQUG33AUG:00000005] Http Host: [localhost:7224]
+2022-11-01 12:06:59.044 +05:00 [INFO] [0HMLRQUG33AUG:00000007] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-01 12:06:59.045 +05:00 [INFO] [0HMLRQUG33AUG:00000007] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-01 12:06:59.049 +05:00 [INFO] [0HMLRQUG33AUG:00000007] Http Connection: [::1:59809]
+2022-11-01 12:06:59.049 +05:00 [INFO] [0HMLRQUG33AUG:00000007] Http Scheme: [https]
+2022-11-01 12:06:59.050 +05:00 [INFO] [0HMLRQUG33AUG:00000007] Http Host: [localhost:7224]
+2022-11-01 12:06:59.666 +05:00 [INFO] [0HMLRQUG33AUG:00000007] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-01 12:06:59.674 +05:00 [INFO] [0HMLRQUG33AUG:00000007] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-01 12:07:02.188 +05:00 [INFO] [0HMLRQUG33AUG:00000007] Received HTTP response headers after 2509.3745ms - 200
+2022-11-01 12:07:02.194 +05:00 [INFO] [0HMLRQUG33AUG:00000007] End processing HTTP request after 2532.8978ms - 200
+2022-11-01 12:07:02.206 +05:00 [INFO] [0HMLRQUG33AUG:00000007] Calling Card service to get card
+2022-11-01 12:07:02.222 +05:00 [INFO] [0HMLRQUG33AUG:00000007] [GetCard] method of card called.
+2022-11-01 12:07:02.223 +05:00 [INFO] [0HMLRQUG33AUG:00000007] Starting span WITH context in span lib
+2022-11-01 12:07:07.692 +05:00 [INFO] [0HMLRQUG33AUG:00000007] Card details {"MaskedCard":"5123456789012346","NameOnCard":"Spending","CardNumber":"******","$type":"CardResponse"}
+2022-11-01 12:07:08.898 +05:00 [INFO] [0HMLRQUG33AUG:00000007] Response Body: {"TokenType":"StartObject","ValueKind":"Object","Item":null,"DebuggerDisplay":"ValueKind = Object : \"{\"cardNumber\":\"5123456789012346\",\"maskedCard\":\"5123456789012346\",\"nameOnCard\":\"Spending\"}\"","$type":"JsonElement"}
+2022-11-01 12:07:45.734 +05:00 [INFO] [0HMLRQUG33AUG:00000009] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-01 12:07:45.750 +05:00 [INFO] [0HMLRQUG33AUG:00000009] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-01 12:07:45.752 +05:00 [INFO] [0HMLRQUG33AUG:00000009] Http Connection: [::1:59809]
+2022-11-01 12:07:45.752 +05:00 [INFO] [0HMLRQUG33AUG:00000009] Http Scheme: [https]
+2022-11-01 12:07:45.753 +05:00 [INFO] [0HMLRQUG33AUG:00000009] Http Host: [localhost:7224]
+2022-11-01 12:07:45.758 +05:00 [INFO] [0HMLRQUG33AUG:00000009] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-01 12:07:45.759 +05:00 [INFO] [0HMLRQUG33AUG:00000009] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-01 12:07:47.783 +05:00 [INFO] [0HMLRQUG33AUG:00000009] Received HTTP response headers after 2023.0425ms - 200
+2022-11-01 12:07:47.784 +05:00 [INFO] [0HMLRQUG33AUG:00000009] End processing HTTP request after 2026.0148ms - 200
+2022-11-01 12:07:47.786 +05:00 [INFO] [0HMLRQUG33AUG:00000009] Calling Card service to get card
+2022-11-01 12:07:47.786 +05:00 [INFO] [0HMLRQUG33AUG:00000009] [GetCard] method of card called.
+2022-11-01 12:07:47.787 +05:00 [INFO] [0HMLRQUG33AUG:00000009] Starting span WITH context in span lib
+2022-11-01 12:07:49.673 +05:00 [INFO] [0HMLRQUG33AUG:00000009] Card details {"MaskedCard":"5123456789012346","NameOnCard":"Spending","CardNumber":"******","$type":"CardResponse"}
+2022-11-01 12:07:49.922 +05:00 [INFO] [0HMLRQUG33AUG:00000009] Response Body: {"TokenType":"StartObject","ValueKind":"Object","Item":null,"DebuggerDisplay":"ValueKind = Object : \"{\"cardNumber\":\"5123456789012346\",\"maskedCard\":\"5123456789012346\",\"nameOnCard\":\"Spending\"}\"","$type":"JsonElement"}
+2022-11-01 12:08:11.337 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-01 12:08:11.345 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-01 12:08:11.346 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-01 12:08:11.346 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-01 12:08:11.873 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-01 12:08:12.022 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-01 12:08:12.023 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-01 12:08:12.023 +05:00 [INFO] [] Hosting environment: Development
+2022-11-01 12:08:12.024 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-01 12:08:12.801 +05:00 [INFO] [0HMLRQVBCNQ66:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-01 12:08:12.827 +05:00 [INFO] [0HMLRQVBCNQ66:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-01 12:08:12.830 +05:00 [INFO] [0HMLRQVBCNQ66:00000001] Http Connection: [::1:59858]
+2022-11-01 12:08:12.831 +05:00 [INFO] [0HMLRQVBCNQ66:00000001] Http Scheme: [https]
+2022-11-01 12:08:12.832 +05:00 [INFO] [0HMLRQVBCNQ66:00000001] Http Host: [localhost:7224]
+2022-11-01 12:08:14.953 +05:00 [INFO] [0HMLRQVBCNQ66:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-01 12:08:14.961 +05:00 [INFO] [0HMLRQVBCNQ66:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-01 12:08:14.965 +05:00 [INFO] [0HMLRQVBCNQ66:00000005] Http Connection: [::1:59858]
+2022-11-01 12:08:14.965 +05:00 [INFO] [0HMLRQVBCNQ66:00000005] Http Scheme: [https]
+2022-11-01 12:08:14.966 +05:00 [INFO] [0HMLRQVBCNQ66:00000005] Http Host: [localhost:7224]
+2022-11-01 12:08:24.958 +05:00 [INFO] [0HMLRQVBCNQ66:00000007] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-01 12:08:24.960 +05:00 [INFO] [0HMLRQVBCNQ66:00000007] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["grafana_session=4e58a4e4406435f85702c48045c8abb3"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Chromium\u0022;v=\u0022106\u0022, \u0022Google Chrome\u0022;v=\u0022106\u0022, \u0022Not;A=Brand\u0022;v=\u002299\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-01 12:08:24.962 +05:00 [INFO] [0HMLRQVBCNQ66:00000007] Http Connection: [::1:59858]
+2022-11-01 12:08:24.963 +05:00 [INFO] [0HMLRQVBCNQ66:00000007] Http Scheme: [https]
+2022-11-01 12:08:24.964 +05:00 [INFO] [0HMLRQVBCNQ66:00000007] Http Host: [localhost:7224]
+2022-11-01 12:08:25.281 +05:00 [INFO] [0HMLRQVBCNQ66:00000007] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-01 12:08:25.294 +05:00 [INFO] [0HMLRQVBCNQ66:00000007] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-01 12:08:29.348 +05:00 [INFO] [0HMLRQVBCNQ66:00000007] Received HTTP response headers after 4047.9665ms - 200
+2022-11-01 12:08:29.354 +05:00 [INFO] [0HMLRQVBCNQ66:00000007] End processing HTTP request after 4081.7578ms - 200
+2022-11-01 12:08:29.365 +05:00 [INFO] [0HMLRQVBCNQ66:00000007] Calling Card service to get card
+2022-11-01 12:08:29.377 +05:00 [INFO] [0HMLRQVBCNQ66:00000007] [GetCard] method of card called.
+2022-11-01 12:08:29.379 +05:00 [INFO] [0HMLRQVBCNQ66:00000007] Starting span WITH context in span lib
+2022-11-01 12:08:34.298 +05:00 [INFO] [0HMLRQVBCNQ66:00000007] Card details {"MaskedCard":"5123456789012346","NameOnCard":"Spending","CardNumber":"******","$type":"CardResponse"}
+2022-11-01 12:08:34.968 +05:00 [INFO] [0HMLRQVBCNQ66:00000007] Response Body: {"TokenType":"StartObject","ValueKind":"Object","Item":null,"DebuggerDisplay":"ValueKind = Object : \"{\"cardNumber\":\"5123456789012346\",\"maskedCard\":\"5123456789012346\",\"nameOnCard\":\"Spending\"}\"","$type":"JsonElement"}

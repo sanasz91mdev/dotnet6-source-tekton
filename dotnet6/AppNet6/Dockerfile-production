@@ -1,0 +1,15 @@
+﻿# https://hub.docker.com/_/microsoft-dotnet
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /dockerappNet6
+# copy everything from what CICD will publish in a dir and run app
+COPY bin/Release/net6.0/publish/. ./
+
+ENV ASPNETCORE_URLS=http://+:5000
+ENV ASPNETCORE_ENVIRONMENT="production"
+
+EXPOSE 5000
+
+# need for wsl2
+ENV TZ Asia/Karachi 
+
+ENTRYPOINT ["dotnet", "DigitalBanking.dll"]

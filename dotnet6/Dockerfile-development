@@ -1,0 +1,29 @@
+﻿# https://hub.docker.com/_/microsoft-dotnet
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /dockerappNet6
+
+#copy all from dev dir to work DIR
+COPY /. ./app/
+
+WORKDIR /dockerappNet6/app/AppNet6
+
+RUN dotnet publish -c Release -o /published
+
+#COPY aspnetapp/. ./aspnetapp/
+
+
+# copy everything from what publish command pushed to /published
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
+WORKDIR /published
+COPY --from=build /published ./
+#COPY published/. ./
+
+ENV ASPNETCORE_URLS=http://+:5000
+ENV ASPNETCORE_ENVIRONMENT="development"
+
+EXPOSE 5000
+
+# need for wsl2
+ENV TZ Asia/Karachi
+
+ENTRYPOINT ["dotnet", "DigitalBanking.dll"]

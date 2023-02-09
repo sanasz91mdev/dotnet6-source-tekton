@@ -1,0 +1,534 @@
+2023-02-08 15:58:16.902 +05:00 [DBUG] [] Found validator UserValidator
+2023-02-08 15:58:16.907 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2023-02-08 15:58:16.907 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2023-02-08 15:58:16.907 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2023-02-08 15:58:17.354 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2023-02-08 15:58:17.664 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2023-02-08 15:58:17.665 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2023-02-08 15:58:17.666 +05:00 [INFO] [] Hosting environment: Development
+2023-02-08 15:58:17.667 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2023-02-08 15:58:18.673 +05:00 [INFO] [0HMO9ODH3TOER:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/], Request Body: []
+2023-02-08 15:58:18.719 +05:00 [INFO] [0HMO9ODH3TOER:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Upgrade-Insecure-Requests":["1"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"]}]
+2023-02-08 15:58:18.723 +05:00 [INFO] [0HMO9ODH3TOER:00000001] Http Connection: [::1:58214]
+2023-02-08 15:58:18.723 +05:00 [INFO] [0HMO9ODH3TOER:00000001] Http Scheme: [https]
+2023-02-08 15:58:18.725 +05:00 [INFO] [0HMO9ODH3TOER:00000001] Http Host: [localhost:7224]
+2023-02-08 16:02:15.901 +05:00 [DBUG] [] Found validator UserValidator
+2023-02-08 16:02:15.911 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2023-02-08 16:02:15.911 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2023-02-08 16:02:15.911 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2023-02-08 16:02:16.493 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2023-02-08 16:02:16.642 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2023-02-08 16:02:16.643 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2023-02-08 16:02:16.644 +05:00 [INFO] [] Hosting environment: Development
+2023-02-08 16:02:16.644 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2023-02-08 16:02:17.864 +05:00 [INFO] [0HMO9OFOG0THI:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/], Request Body: []
+2023-02-08 16:02:17.910 +05:00 [INFO] [0HMO9OFOG0THI:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Upgrade-Insecure-Requests":["1"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"]}]
+2023-02-08 16:02:17.914 +05:00 [INFO] [0HMO9OFOG0THI:00000001] Http Connection: [::1:58435]
+2023-02-08 16:02:17.914 +05:00 [INFO] [0HMO9OFOG0THI:00000001] Http Scheme: [https]
+2023-02-08 16:02:17.915 +05:00 [INFO] [0HMO9OFOG0THI:00000001] Http Host: [localhost:7224]
+2023-02-08 16:05:13.689 +05:00 [DBUG] [] Found validator UserValidator
+2023-02-08 16:05:13.695 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2023-02-08 16:05:13.695 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2023-02-08 16:05:13.695 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2023-02-08 16:05:14.054 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2023-02-08 16:05:14.282 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2023-02-08 16:05:14.283 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2023-02-08 16:05:14.283 +05:00 [INFO] [] Hosting environment: Development
+2023-02-08 16:05:14.284 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2023-02-08 16:05:15.183 +05:00 [INFO] [0HMO9OHDC9N8B:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/], Request Body: []
+2023-02-08 16:05:15.223 +05:00 [INFO] [0HMO9OHDC9N8B:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Upgrade-Insecure-Requests":["1"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"]}]
+2023-02-08 16:05:15.228 +05:00 [INFO] [0HMO9OHDC9N8B:00000001] Http Connection: [::1:58803]
+2023-02-08 16:05:15.228 +05:00 [INFO] [0HMO9OHDC9N8B:00000001] Http Scheme: [https]
+2023-02-08 16:05:15.230 +05:00 [INFO] [0HMO9OHDC9N8B:00000001] Http Host: [localhost:7224]
+2023-02-08 16:05:18.213 +05:00 [INFO] [0HMO9OHDC9N8B:00000003] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2023-02-08 16:05:18.214 +05:00 [INFO] [0HMO9OHDC9N8B:00000003] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2023-02-08 16:05:18.216 +05:00 [INFO] [0HMO9OHDC9N8B:00000003] Http Connection: [::1:58803]
+2023-02-08 16:05:18.217 +05:00 [INFO] [0HMO9OHDC9N8B:00000003] Http Scheme: [https]
+2023-02-08 16:05:18.218 +05:00 [INFO] [0HMO9OHDC9N8B:00000003] Http Host: [localhost:7224]
+2023-02-08 16:05:18.523 +05:00 [INFO] [0HMO9OHDC9N8B:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger-ui.css], Request Body: []
+2023-02-08 16:05:18.523 +05:00 [INFO] [0HMO9OHDC9N8B:00000009] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger-ui-standalone-preset.js], Request Body: []
+2023-02-08 16:05:18.526 +05:00 [INFO] [0HMO9OHDC9N8B:00000007] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger-ui-bundle.js], Request Body: []
+2023-02-08 16:05:18.528 +05:00 [INFO] [0HMO9OHDC9N8B:00000009] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["no-cors"],"sec-fetch-dest":["script"]}]
+2023-02-08 16:05:18.529 +05:00 [INFO] [0HMO9OHDC9N8B:00000005] Http Headers: [{"Accept":["text/css,*/*;q=0.1"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["no-cors"],"sec-fetch-dest":["style"]}]
+2023-02-08 16:05:18.529 +05:00 [INFO] [0HMO9OHDC9N8B:00000007] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["no-cors"],"sec-fetch-dest":["script"]}]
+2023-02-08 16:05:18.531 +05:00 [INFO] [0HMO9OHDC9N8B:00000009] Http Connection: [::1:58803]
+2023-02-08 16:05:18.531 +05:00 [INFO] [0HMO9OHDC9N8B:00000005] Http Connection: [::1:58803]
+2023-02-08 16:05:18.532 +05:00 [INFO] [0HMO9OHDC9N8B:00000007] Http Connection: [::1:58803]
+2023-02-08 16:05:18.532 +05:00 [INFO] [0HMO9OHDC9N8B:00000009] Http Scheme: [https]
+2023-02-08 16:05:18.533 +05:00 [INFO] [0HMO9OHDC9N8B:00000005] Http Scheme: [https]
+2023-02-08 16:05:18.534 +05:00 [INFO] [0HMO9OHDC9N8B:00000007] Http Scheme: [https]
+2023-02-08 16:05:18.535 +05:00 [INFO] [0HMO9OHDC9N8B:00000007] Http Host: [localhost:7224]
+2023-02-08 16:05:18.535 +05:00 [INFO] [0HMO9OHDC9N8B:00000009] Http Host: [localhost:7224]
+2023-02-08 16:05:18.535 +05:00 [INFO] [0HMO9OHDC9N8B:00000005] Http Host: [localhost:7224]
+2023-02-08 16:05:19.179 +05:00 [INFO] [0HMO9OHDC9N8B:0000000D] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2023-02-08 16:05:19.180 +05:00 [INFO] [0HMO9OHDC9N8B:0000000D] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2023-02-08 16:05:19.182 +05:00 [INFO] [0HMO9OHDC9N8B:0000000D] Http Connection: [::1:58803]
+2023-02-08 16:05:19.183 +05:00 [INFO] [0HMO9OHDC9N8B:0000000D] Http Scheme: [https]
+2023-02-08 16:05:19.184 +05:00 [INFO] [0HMO9OHDC9N8B:0000000D] Http Host: [localhost:7224]
+2023-02-08 16:05:19.220 +05:00 [INFO] [0HMO9OHDC9N8B:0000000F] Http Method: [GET], Protoclol [HTTP/2], Path [/favicon-32x32.png], Request Body: []
+2023-02-08 16:05:19.221 +05:00 [INFO] [0HMO9OHDC9N8B:0000000F] Http Headers: [{"Accept":["image/avif,image/webp,image/apng,image/svg\u002Bxml,image/*,*/*;q=0.8"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["no-cors"],"sec-fetch-dest":["image"]}]
+2023-02-08 16:05:19.223 +05:00 [INFO] [0HMO9OHDC9N8B:0000000F] Http Connection: [::1:58803]
+2023-02-08 16:05:19.224 +05:00 [INFO] [0HMO9OHDC9N8B:0000000F] Http Scheme: [https]
+2023-02-08 16:05:19.225 +05:00 [INFO] [0HMO9OHDC9N8B:0000000F] Http Host: [localhost:7224]
+2023-02-08 16:05:19.445 +05:00 [INFO] [0HMO9OHDC9N8B:0000000D] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2023-02-08 16:15:22.633 +05:00 [DBUG] [] Found validator UserValidator
+2023-02-08 16:15:22.642 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2023-02-08 16:15:22.642 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2023-02-08 16:15:22.642 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2023-02-08 16:15:23.060 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2023-02-08 16:15:23.237 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2023-02-08 16:15:23.238 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2023-02-08 16:15:23.238 +05:00 [INFO] [] Hosting environment: Development
+2023-02-08 16:15:23.239 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2023-02-08 16:15:24.376 +05:00 [INFO] [0HMO9ON2RRNQB:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2023-02-08 16:15:24.407 +05:00 [INFO] [0HMO9ON2RRNQB:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2023-02-08 16:15:24.411 +05:00 [INFO] [0HMO9ON2RRNQB:00000001] Http Connection: [::1:59201]
+2023-02-08 16:15:24.411 +05:00 [INFO] [0HMO9ON2RRNQB:00000001] Http Scheme: [https]
+2023-02-08 16:15:24.412 +05:00 [INFO] [0HMO9ON2RRNQB:00000001] Http Host: [localhost:7224]
+2023-02-08 16:15:26.618 +05:00 [INFO] [0HMO9ON2RRNQB:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2023-02-08 16:15:26.620 +05:00 [INFO] [0HMO9ON2RRNQB:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2023-02-08 16:15:26.621 +05:00 [INFO] [0HMO9ON2RRNQB:00000005] Http Connection: [::1:59201]
+2023-02-08 16:15:26.622 +05:00 [INFO] [0HMO9ON2RRNQB:00000005] Http Scheme: [https]
+2023-02-08 16:15:26.622 +05:00 [INFO] [0HMO9ON2RRNQB:00000005] Http Host: [localhost:7224]
+2023-02-08 16:15:26.812 +05:00 [INFO] [0HMO9ON2RRNQB:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2023-02-08 16:15:31.948 +05:00 [INFO] [0HMO9ON2RRNQB:00000007] Http Method: [GET], Protoclol [HTTP/2], Path [/api/v2/users], Request Body: []
+2023-02-08 16:15:31.950 +05:00 [INFO] [0HMO9ON2RRNQB:00000007] Http Headers: [{"Accept":["application/json"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2023-02-08 16:15:31.952 +05:00 [INFO] [0HMO9ON2RRNQB:00000007] Http Connection: [::1:59201]
+2023-02-08 16:15:31.952 +05:00 [INFO] [0HMO9ON2RRNQB:00000007] Http Scheme: [https]
+2023-02-08 16:15:31.954 +05:00 [INFO] [0HMO9ON2RRNQB:00000007] Http Host: [localhost:7224]
+2023-02-08 16:15:32.000 +05:00 [INFO] [0HMO9ON2RRNQB:00000007] Response Body: {
+  "name": "sana",
+  "contactNumber": "03323344553",
+  "emailAddress": "sana.zehra@gmail.com"
+}
+2023-02-08 16:15:58.936 +05:00 [INFO] [0HMO9ON2RRNQB:00000009] Http Method: [GET], Protoclol [HTTP/2], Path [/healthz/live], Request Body: []
+2023-02-08 16:15:58.937 +05:00 [INFO] [0HMO9ON2RRNQB:00000009] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Upgrade-Insecure-Requests":["1"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"]}]
+2023-02-08 16:15:58.944 +05:00 [INFO] [0HMO9ON2RRNQB:00000009] Http Connection: [::1:59201]
+2023-02-08 16:15:58.944 +05:00 [INFO] [0HMO9ON2RRNQB:00000009] Http Scheme: [https]
+2023-02-08 16:15:58.945 +05:00 [INFO] [0HMO9ON2RRNQB:00000009] Http Host: [localhost:7224]
+2023-02-08 16:15:59.020 +05:00 [INFO] [0HMO9ON2RRNQB:0000000B] Http Method: [GET], Protoclol [HTTP/2], Path [/favicon.ico], Request Body: []
+2023-02-08 16:15:59.021 +05:00 [INFO] [0HMO9ON2RRNQB:0000000B] Http Headers: [{"Accept":["image/avif,image/webp,image/apng,image/svg\u002Bxml,image/*,*/*;q=0.8"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Referer":["https://localhost:7224/healthz/live"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["no-cors"],"sec-fetch-dest":["image"]}]
+2023-02-08 16:15:59.022 +05:00 [INFO] [0HMO9ON2RRNQB:0000000B] Http Connection: [::1:59201]
+2023-02-08 16:15:59.023 +05:00 [INFO] [0HMO9ON2RRNQB:0000000B] Http Scheme: [https]
+2023-02-08 16:15:59.024 +05:00 [INFO] [0HMO9ON2RRNQB:0000000B] Http Host: [localhost:7224]
+2023-02-08 16:16:03.571 +05:00 [INFO] [0HMO9ON2RRNQB:0000000D] Http Method: [GET], Protoclol [HTTP/2], Path [/healthz/ready], Request Body: []
+2023-02-08 16:16:03.572 +05:00 [INFO] [0HMO9ON2RRNQB:0000000D] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Upgrade-Insecure-Requests":["1"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"]}]
+2023-02-08 16:16:03.575 +05:00 [INFO] [0HMO9ON2RRNQB:0000000D] Http Connection: [::1:59201]
+2023-02-08 16:16:03.575 +05:00 [INFO] [0HMO9ON2RRNQB:0000000D] Http Scheme: [https]
+2023-02-08 16:16:03.576 +05:00 [INFO] [0HMO9ON2RRNQB:0000000D] Http Host: [localhost:7224]
+2023-02-08 16:16:05.521 +05:00 [INFO] [0HMO9ON2RRNQB:0000000F] Http Method: [GET], Protoclol [HTTP/2], Path [/healthz/ready], Request Body: []
+2023-02-08 16:16:05.522 +05:00 [INFO] [0HMO9ON2RRNQB:0000000F] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cache-Control":["max-age=0"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Upgrade-Insecure-Requests":["1"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"]}]
+2023-02-08 16:16:05.524 +05:00 [INFO] [0HMO9ON2RRNQB:0000000F] Http Connection: [::1:59201]
+2023-02-08 16:16:05.524 +05:00 [INFO] [0HMO9ON2RRNQB:0000000F] Http Scheme: [https]
+2023-02-08 16:16:05.524 +05:00 [INFO] [0HMO9ON2RRNQB:0000000F] Http Host: [localhost:7224]
+2023-02-08 16:16:08.193 +05:00 [INFO] [0HMO9ON2RRNQB:00000011] Http Method: [GET], Protoclol [HTTP/2], Path [/healthz/live], Request Body: []
+2023-02-08 16:16:08.194 +05:00 [INFO] [0HMO9ON2RRNQB:00000011] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Upgrade-Insecure-Requests":["1"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"]}]
+2023-02-08 16:16:08.196 +05:00 [INFO] [0HMO9ON2RRNQB:00000011] Http Connection: [::1:59201]
+2023-02-08 16:16:08.197 +05:00 [INFO] [0HMO9ON2RRNQB:00000011] Http Scheme: [https]
+2023-02-08 16:16:08.197 +05:00 [INFO] [0HMO9ON2RRNQB:00000011] Http Host: [localhost:7224]
+2023-02-08 16:16:10.864 +05:00 [INFO] [0HMO9ON2RRNQB:00000013] Http Method: [GET], Protoclol [HTTP/2], Path [/healthz/ready], Request Body: []
+2023-02-08 16:16:10.865 +05:00 [INFO] [0HMO9ON2RRNQB:00000013] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Upgrade-Insecure-Requests":["1"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"]}]
+2023-02-08 16:16:10.868 +05:00 [INFO] [0HMO9ON2RRNQB:00000013] Http Connection: [::1:59201]
+2023-02-08 16:16:10.869 +05:00 [INFO] [0HMO9ON2RRNQB:00000013] Http Scheme: [https]
+2023-02-08 16:16:10.870 +05:00 [INFO] [0HMO9ON2RRNQB:00000013] Http Host: [localhost:7224]
+2023-02-08 16:16:11.054 +05:00 [INFO] [0HMO9ON2RRNQB:00000015] Http Method: [GET], Protoclol [HTTP/2], Path [/healthz/live], Request Body: []
+2023-02-08 16:16:11.055 +05:00 [INFO] [0HMO9ON2RRNQB:00000015] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cookie":["ajs_anonymous_id=e957c727-ad4a-4ac9-8461-a59d51ded6dd","_ga=GA1.1.340583840.1672303879","_ga_WP4XXN1FYN=GS1.1.1672653158.5.1.1672653159.0.0.0"],"Upgrade-Insecure-Requests":["1"],"sec-ch-ua":["\u0022Not_A Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022109\u0022, \u0022Chromium\u0022;v=\u0022109\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"]}]
+2023-02-08 16:16:11.057 +05:00 [INFO] [0HMO9ON2RRNQB:00000015] Http Connection: [::1:59201]
+2023-02-08 16:16:11.057 +05:00 [INFO] [0HMO9ON2RRNQB:00000015] Http Scheme: [https]
+2023-02-08 16:16:11.058 +05:00 [INFO] [0HMO9ON2RRNQB:00000015] Http Host: [localhost:7224]

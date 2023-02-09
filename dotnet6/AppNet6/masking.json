@@ -1,0 +1,8 @@
+{
+  "MaskedProps": [
+    "cardNumber",
+    "Password",
+    "Token",
+    "CardStatus"
+  ]
+}

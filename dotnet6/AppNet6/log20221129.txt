@@ -1,0 +1,2961 @@
+2022-11-29 09:38:59.975 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 22.976ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Network Transport: TCP transport address connect failure
+ ---> OracleInternal.Network.NetworkException (0x80004005): Network Transport: TCP transport address connect failure
+ ---> System.Net.Sockets.SocketException (10065): A socket operation was attempted to an unreachable host.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End(IAsyncResult asyncResult)
+   at OracleInternal.Network.TcpTransportAdapter.ConnectIterate()
+   at OracleInternal.Network.OracleCommunication.DoConnect(String tnsDescriptor)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 09:39:30.026 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 24.9456ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Network Transport: TCP transport address connect failure
+ ---> OracleInternal.Network.NetworkException (0x80004005): Network Transport: TCP transport address connect failure
+ ---> System.Net.Sockets.SocketException (10051): A socket operation was attempted to an unreachable network.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End(IAsyncResult asyncResult)
+   at OracleInternal.Network.TcpTransportAdapter.ConnectIterate()
+   at OracleInternal.Network.OracleCommunication.DoConnect(String tnsDescriptor)
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, OracleConnection connRefForCriteria, String instanceName)
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 09:40:15.006 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 15015.9737ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 09:40:44.973 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 15018.5503ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 09:41:14.971 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 15017.1136ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 09:41:44.973 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 15017.798ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 09:42:15.003 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 15007.599ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 09:42:44.977 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 15019.9743ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 09:43:14.963 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 15007.5748ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 09:43:44.965 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 15013.2314ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 09:44:14.978 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 15022.8003ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 09:44:44.993 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 15014.7626ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 09:45:14.978 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 15016.6991ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 09:46:28.600 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 09:46:28.605 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 09:46:28.606 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 09:46:28.606 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 09:46:29.011 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 09:46:29.303 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 09:46:29.305 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 09:46:29.307 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 09:46:29.308 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 09:46:30.131 +05:00 [INFO] [0HMMHOIN3QC2V:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 09:46:30.165 +05:00 [INFO] [0HMMHOIN3QC2V:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 09:46:30.168 +05:00 [INFO] [0HMMHOIN3QC2V:00000001] Http Connection: [::1:59881]
+2022-11-29 09:46:30.168 +05:00 [INFO] [0HMMHOIN3QC2V:00000001] Http Scheme: [https]
+2022-11-29 09:46:30.170 +05:00 [INFO] [0HMMHOIN3QC2V:00000001] Http Host: [localhost:7224]
+2022-11-29 09:46:33.999 +05:00 [INFO] [0HMMHOIN3QC2V:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-29 09:46:34.000 +05:00 [INFO] [0HMMHOIN3QC2V:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 09:46:34.002 +05:00 [INFO] [0HMMHOIN3QC2V:00000005] Http Connection: [::1:59881]
+2022-11-29 09:46:34.003 +05:00 [INFO] [0HMMHOIN3QC2V:00000005] Http Scheme: [https]
+2022-11-29 09:46:34.004 +05:00 [INFO] [0HMMHOIN3QC2V:00000005] Http Host: [localhost:7224]
+2022-11-29 09:46:34.170 +05:00 [INFO] [0HMMHOIN3QC2V:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2022-11-29 09:47:24.819 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 09:47:24.825 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 09:47:24.825 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 09:47:24.825 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 09:47:25.132 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 09:47:25.272 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 09:47:25.273 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 09:47:25.274 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 09:47:25.274 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 09:47:26.074 +05:00 [INFO] [0HMMHOJ7PIQGA:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 09:47:26.126 +05:00 [INFO] [0HMMHOJ7PIQGA:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 09:47:26.179 +05:00 [INFO] [0HMMHOJ7PIQGA:00000001] Http Connection: [::1:52097]
+2022-11-29 09:47:26.180 +05:00 [INFO] [0HMMHOJ7PIQGA:00000001] Http Scheme: [https]
+2022-11-29 09:47:26.191 +05:00 [INFO] [0HMMHOJ7PIQGA:00000001] Http Host: [localhost:7224]
+2022-11-29 09:47:28.712 +05:00 [INFO] [0HMMHOJ7PIQGA:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-29 09:47:28.714 +05:00 [INFO] [0HMMHOJ7PIQGA:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 09:47:28.718 +05:00 [INFO] [0HMMHOJ7PIQGA:00000005] Http Connection: [::1:52097]
+2022-11-29 09:47:28.719 +05:00 [INFO] [0HMMHOJ7PIQGA:00000005] Http Scheme: [https]
+2022-11-29 09:47:28.720 +05:00 [INFO] [0HMMHOJ7PIQGA:00000005] Http Host: [localhost:7224]
+2022-11-29 09:47:28.877 +05:00 [INFO] [0HMMHOJ7PIQGA:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2022-11-29 09:47:51.407 +05:00 [INFO] [0HMMHOJ7PIQGB:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/v1/Cards], Request Body: []
+2022-11-29 09:47:51.408 +05:00 [INFO] [0HMMHOJ7PIQGB:00000001] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 09:47:51.418 +05:00 [INFO] [0HMMHOJ7PIQGB:00000001] Http Connection: [::1:53486]
+2022-11-29 09:47:51.420 +05:00 [INFO] [0HMMHOJ7PIQGB:00000001] Http Scheme: [https]
+2022-11-29 09:47:51.425 +05:00 [INFO] [0HMMHOJ7PIQGB:00000001] Http Host: [localhost:7224]
+2022-11-29 09:47:51.506 +05:00 [INFO] [0HMMHOJ7PIQGB:00000001] Calling Card service to get card
+2022-11-29 09:47:51.509 +05:00 [INFO] [0HMMHOJ7PIQGB:00000001] [GetCard] method of card called.
+2022-11-29 09:47:51.513 +05:00 [INFO] [0HMMHOJ7PIQGB:00000001] Starting span WITH context in span lib
+2022-11-29 09:48:03.992 +05:00 [INFO] [0HMMHOJ7PIQGB:00000001] Response Body: {
+  "responseCode": "199",
+  "stackTrace": "   at Services.BusinessLogic.Card.GetCard(CardRequest request) in D:\\TeamArchitects\\code\\dotnet6\\Services\\BusinessLogic\\Card.cs:line 58\r\n   at DigitalBanking.Modules.CardModule.getCards(String customerId, Card cardService) in D:\\TeamArchitects\\code\\dotnet6\\AppNet6\\Modules\\CardModule.cs:line 85",
+  "exceptionMessage": "Object reference not set to an instance of an object.",
+  "message": "Failed to process request."
+}
+2022-11-29 09:48:21.152 +05:00 [INFO] [0HMMHOJ7PIQGC:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-29 09:48:21.155 +05:00 [INFO] [0HMMHOJ7PIQGC:00000001] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 09:48:21.173 +05:00 [INFO] [0HMMHOJ7PIQGC:00000001] Http Connection: [::1:53554]
+2022-11-29 09:48:21.178 +05:00 [INFO] [0HMMHOJ7PIQGC:00000001] Http Scheme: [https]
+2022-11-29 09:48:21.181 +05:00 [INFO] [0HMMHOJ7PIQGC:00000001] Http Host: [localhost:7224]
+2022-11-29 09:48:21.289 +05:00 [INFO] [0HMMHOJ7PIQGC:00000001] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-29 09:48:21.304 +05:00 [INFO] [0HMMHOJ7PIQGC:00000001] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-29 09:48:22.446 +05:00 [INFO] [0HMMHOJ7PIQGC:00000001] Received HTTP response headers after 1130.5101ms - 200
+2022-11-29 09:48:22.458 +05:00 [INFO] [0HMMHOJ7PIQGC:00000001] End processing HTTP request after 1182.2252ms - 200
+2022-11-29 09:48:22.487 +05:00 [INFO] [0HMMHOJ7PIQGC:00000001] Calling Card service to get card
+2022-11-29 09:48:22.488 +05:00 [INFO] [0HMMHOJ7PIQGC:00000001] [GetCard] method of card called.
+2022-11-29 09:48:22.492 +05:00 [INFO] [0HMMHOJ7PIQGC:00000001] Starting span WITH context in span lib
+2022-11-29 09:48:28.840 +05:00 [INFO] [0HMMHOJ7PIQGC:00000001] Response Body: {
+  "responseCode": "199",
+  "stackTrace": "   at Services.BusinessLogic.Card.GetCard(CardRequest request) in D:\\TeamArchitects\\code\\dotnet6\\Services\\BusinessLogic\\Card.cs:line 58\r\n   at DigitalBanking.Modules.CardModule.getCardsViaAPI(String customerId, Card cardService, IHttpClientFactory httpClientFactory) in D:\\TeamArchitects\\code\\dotnet6\\AppNet6\\Modules\\CardModule.cs:line 57",
+  "exceptionMessage": "Object reference not set to an instance of an object.",
+  "message": "Failed to process request."
+}
+2022-11-29 09:50:25.962 +05:00 [INFO] [0HMMHOJ7PIQGD:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 09:50:25.983 +05:00 [INFO] [0HMMHOJ7PIQGD:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Cache-Control":["max-age=0"],"Referer":["https://localhost:7224/index.html"],"Upgrade-Insecure-Requests":["1"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["navigate"],"sec-fetch-dest":["document"]}]
+2022-11-29 09:50:25.987 +05:00 [INFO] [0HMMHOJ7PIQGD:00000001] Http Connection: [::1:59876]
+2022-11-29 09:50:25.990 +05:00 [INFO] [0HMMHOJ7PIQGD:00000001] Http Scheme: [https]
+2022-11-29 09:50:25.991 +05:00 [INFO] [0HMMHOJ7PIQGD:00000001] Http Host: [localhost:7224]
+2022-11-29 09:50:34.100 +05:00 [INFO] [0HMMHOJ7PIQGD:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-29 09:50:38.892 +05:00 [INFO] [0HMMHOJ7PIQGD:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 09:50:38.894 +05:00 [INFO] [0HMMHOJ7PIQGD:00000005] Http Connection: [::1:59876]
+2022-11-29 09:50:38.895 +05:00 [INFO] [0HMMHOJ7PIQGD:00000005] Http Scheme: [https]
+2022-11-29 09:50:38.896 +05:00 [INFO] [0HMMHOJ7PIQGD:00000005] Http Host: [localhost:7224]
+2022-11-29 09:50:38.901 +05:00 [INFO] [0HMMHOJ7PIQGD:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2022-11-29 10:11:11.975 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 10:11:11.981 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 10:11:11.981 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 10:11:11.981 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 10:11:12.708 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 10:11:13.073 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 10:11:13.075 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 10:11:13.075 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 10:11:13.076 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 10:11:14.825 +05:00 [INFO] [0HMMHP0H92CCF:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 10:11:14.889 +05:00 [INFO] [0HMMHP0H92CCF:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 10:11:14.893 +05:00 [INFO] [0HMMHP0H92CCF:00000001] Http Connection: [::1:60971]
+2022-11-29 10:11:14.894 +05:00 [INFO] [0HMMHP0H92CCF:00000001] Http Scheme: [https]
+2022-11-29 10:11:14.896 +05:00 [INFO] [0HMMHP0H92CCF:00000001] Http Host: [localhost:7224]
+2022-11-29 10:17:28.884 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 10:17:28.890 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 10:17:28.890 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 10:17:28.890 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 10:17:29.859 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 10:17:30.375 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 10:17:30.376 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 10:17:30.377 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 10:17:30.378 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 10:17:30.828 +05:00 [INFO] [0HMMHP41K0T4D:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 10:17:30.874 +05:00 [INFO] [0HMMHP41K0T4D:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 10:17:30.878 +05:00 [INFO] [0HMMHP41K0T4D:00000001] Http Connection: [::1:64723]
+2022-11-29 10:17:30.879 +05:00 [INFO] [0HMMHP41K0T4D:00000001] Http Scheme: [https]
+2022-11-29 10:17:30.880 +05:00 [INFO] [0HMMHP41K0T4D:00000001] Http Host: [localhost:7224]
+2022-11-29 10:20:05.575 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 10:20:05.582 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 10:20:05.582 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 10:20:05.582 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 10:20:06.260 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 10:20:06.516 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 10:20:06.521 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 10:20:06.522 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 10:20:06.527 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 10:20:07.131 +05:00 [INFO] [0HMMHP5G7B8EP:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 10:20:07.163 +05:00 [INFO] [0HMMHP5G7B8EP:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 10:20:07.166 +05:00 [INFO] [0HMMHP5G7B8EP:00000001] Http Connection: [::1:62850]
+2022-11-29 10:20:07.166 +05:00 [INFO] [0HMMHP5G7B8EP:00000001] Http Scheme: [https]
+2022-11-29 10:20:07.167 +05:00 [INFO] [0HMMHP5G7B8EP:00000001] Http Host: [localhost:7224]
+2022-11-29 10:21:35.909 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 10:21:35.917 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 10:21:35.917 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 10:21:35.917 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 10:21:36.528 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 10:21:36.683 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 10:21:36.685 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 10:21:36.686 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 10:21:36.686 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 10:21:37.657 +05:00 [INFO] [0HMMHP6B67U77:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 10:21:37.689 +05:00 [INFO] [0HMMHP6B67U77:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 10:21:37.693 +05:00 [INFO] [0HMMHP6B67U77:00000001] Http Connection: [::1:60257]
+2022-11-29 10:21:37.693 +05:00 [INFO] [0HMMHP6B67U77:00000001] Http Scheme: [https]
+2022-11-29 10:21:37.694 +05:00 [INFO] [0HMMHP6B67U77:00000001] Http Host: [localhost:7224]
+2022-11-29 10:23:45.523 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 10:23:45.529 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 10:23:45.529 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 10:23:45.529 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 10:23:46.028 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 10:23:46.263 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 10:23:46.269 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 10:23:46.275 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 10:23:46.276 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 10:23:47.409 +05:00 [INFO] [0HMMHP7HO1355:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 10:23:47.439 +05:00 [INFO] [0HMMHP7HO1355:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 10:23:47.442 +05:00 [INFO] [0HMMHP7HO1355:00000001] Http Connection: [::1:57307]
+2022-11-29 10:23:47.442 +05:00 [INFO] [0HMMHP7HO1355:00000001] Http Scheme: [https]
+2022-11-29 10:23:47.443 +05:00 [INFO] [0HMMHP7HO1355:00000001] Http Host: [localhost:7224]
+2022-11-29 10:24:17.163 +05:00 [INFO] [] Application is shutting down...
+2022-11-29 10:28:51.792 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 10:28:51.799 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 10:28:51.799 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 10:28:51.799 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 10:28:52.259 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 10:28:52.436 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 10:28:52.437 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 10:28:52.438 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 10:28:52.439 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 10:28:53.346 +05:00 [INFO] [0HMMHPAD3EFKD:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 10:28:53.378 +05:00 [INFO] [0HMMHPAD3EFKD:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 10:28:53.381 +05:00 [INFO] [0HMMHPAD3EFKD:00000001] Http Connection: [::1:54643]
+2022-11-29 10:28:53.381 +05:00 [INFO] [0HMMHPAD3EFKD:00000001] Http Scheme: [https]
+2022-11-29 10:28:53.382 +05:00 [INFO] [0HMMHPAD3EFKD:00000001] Http Host: [localhost:7224]
+2022-11-29 10:30:15.323 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 10:30:15.328 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 10:30:15.328 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 10:30:15.328 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 10:30:15.701 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 10:30:15.840 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 10:30:15.841 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 10:30:15.841 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 10:30:15.842 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 10:30:16.303 +05:00 [INFO] [0HMMHPB5RDJQN:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 10:30:16.339 +05:00 [INFO] [0HMMHPB5RDJQN:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 10:30:16.345 +05:00 [INFO] [0HMMHPB5RDJQN:00000001] Http Connection: [::1:58250]
+2022-11-29 10:30:16.346 +05:00 [INFO] [0HMMHPB5RDJQN:00000001] Http Scheme: [https]
+2022-11-29 10:30:16.349 +05:00 [INFO] [0HMMHPB5RDJQN:00000001] Http Host: [localhost:7224]
+2022-11-29 10:31:48.161 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 10:31:48.165 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 10:31:48.165 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 10:31:48.165 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 10:31:48.542 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 10:31:48.672 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 10:31:48.674 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 10:31:48.674 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 10:31:48.675 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 10:31:49.737 +05:00 [INFO] [0HMMHPC1IUH7U:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 10:31:49.770 +05:00 [INFO] [0HMMHPC1IUH7U:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 10:31:49.774 +05:00 [INFO] [0HMMHPC1IUH7U:00000001] Http Connection: [::1:58469]
+2022-11-29 10:31:49.776 +05:00 [INFO] [0HMMHPC1IUH7U:00000001] Http Scheme: [https]
+2022-11-29 10:31:49.778 +05:00 [INFO] [0HMMHPC1IUH7U:00000001] Http Host: [localhost:7224]
+2022-11-29 10:34:16.780 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 10:34:16.787 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 10:34:16.787 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 10:34:16.787 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 10:34:17.210 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 10:34:17.489 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 10:34:17.491 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 10:34:17.493 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 10:34:17.499 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 10:34:18.058 +05:00 [INFO] [0HMMHPDDR863O:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 10:34:18.120 +05:00 [INFO] [0HMMHPDDR863O:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 10:34:18.131 +05:00 [INFO] [0HMMHPDDR863O:00000001] Http Connection: [::1:56276]
+2022-11-29 10:34:18.132 +05:00 [INFO] [0HMMHPDDR863O:00000001] Http Scheme: [https]
+2022-11-29 10:34:18.134 +05:00 [INFO] [0HMMHPDDR863O:00000001] Http Host: [localhost:7224]
+2022-11-29 10:34:40.090 +05:00 [INFO] [0HMMHPDDR863O:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-29 10:34:40.091 +05:00 [WARN] [] Connection processing ended abnormally.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method21(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at Services.Mask.getMaskData() in D:\TeamArchitects\code\dotnet6\Services\Mask.cs:line 85
+   at Services.Mask.getMaskedList() in D:\TeamArchitects\code\dotnet6\Services\Mask.cs:line 63
+   at DigitalBanking.ServiceExtensions.RedactionProcessor.OnEnd(Activity activity) in D:\TeamArchitects\code\dotnet6\AppNet6\ServiceExtensions\RedactionProcessor.cs:line 36
+   at OpenTelemetry.CompositeProcessor`1.OnEnd(T data)
+   at OpenTelemetry.Trace.TracerProviderSdk.<>c__DisplayClass8_2.<.ctor>b__10(Activity activity)
+   at System.Diagnostics.ActivitySource.<>c.<NotifyActivityStop>b__25_0(ActivityListener listener, Object obj)
+   at System.Diagnostics.SynchronizedList`1.EnumWithAction(Action`2 action, Object arg)
+   at System.Diagnostics.ActivitySource.NotifyActivityStop(Activity activity)
+   at System.Diagnostics.Activity.Stop()
+   at Microsoft.AspNetCore.Hosting.HostingApplicationDiagnostics.StopActivity(Activity activity, HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.HostingApplicationDiagnostics.StopActivity(HttpContext httpContext, Activity activity, Boolean hasDiagnosticListener)
+   at Microsoft.AspNetCore.Hosting.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2022-11-29 10:34:40.092 +05:00 [INFO] [0HMMHPDDR863O:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 10:34:40.097 +05:00 [INFO] [0HMMHPDDR863O:00000005] Http Connection: [::1:56276]
+2022-11-29 10:34:40.101 +05:00 [INFO] [0HMMHPDDR863O:00000005] Http Scheme: [https]
+2022-11-29 10:34:40.102 +05:00 [INFO] [0HMMHPDDR863O:00000005] Http Host: [localhost:7224]
+2022-11-29 10:34:41.329 +05:00 [INFO] [0HMMHPDDR863O:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2022-11-29 10:35:21.281 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 10:35:21.286 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 10:35:21.286 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 10:35:21.286 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 10:35:21.442 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 10:35:21.540 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 10:35:21.541 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 10:35:21.542 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 10:35:21.543 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 10:37:54.411 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 10:37:54.419 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 10:37:54.420 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 10:37:54.420 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 10:37:54.885 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 10:37:55.468 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 10:37:55.469 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 10:37:55.470 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 10:37:55.470 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 10:37:55.914 +05:00 [INFO] [0HMMHPFEMQRIH:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 10:37:55.946 +05:00 [INFO] [0HMMHPFEMQRIH:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 10:37:55.950 +05:00 [INFO] [0HMMHPFEMQRIH:00000001] Http Connection: [::1:64435]
+2022-11-29 10:37:55.950 +05:00 [INFO] [0HMMHPFEMQRIH:00000001] Http Scheme: [https]
+2022-11-29 10:37:55.951 +05:00 [INFO] [0HMMHPFEMQRIH:00000001] Http Host: [localhost:7224]
+2022-11-29 10:41:08.406 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 10:41:08.413 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 10:41:08.413 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 10:41:08.413 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 10:41:08.946 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 10:41:09.242 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 10:41:09.247 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 10:41:09.248 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 10:41:09.249 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 10:41:10.219 +05:00 [INFO] [0HMMHPH8HTIKT:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 10:41:10.266 +05:00 [INFO] [0HMMHPH8HTIKT:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 10:41:10.272 +05:00 [INFO] [0HMMHPH8HTIKT:00000001] Http Connection: [::1:52899]
+2022-11-29 10:41:10.273 +05:00 [INFO] [0HMMHPH8HTIKT:00000001] Http Scheme: [https]
+2022-11-29 10:41:10.276 +05:00 [INFO] [0HMMHPH8HTIKT:00000001] Http Host: [localhost:7224]
+2022-11-29 10:41:14.396 +05:00 [INFO] [0HMMHPH8HTIKT:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-29 10:41:14.397 +05:00 [INFO] [0HMMHPH8HTIKT:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 10:41:14.400 +05:00 [INFO] [0HMMHPH8HTIKT:00000005] Http Connection: [::1:52899]
+2022-11-29 10:41:14.400 +05:00 [INFO] [0HMMHPH8HTIKT:00000005] Http Scheme: [https]
+2022-11-29 10:41:14.401 +05:00 [INFO] [0HMMHPH8HTIKT:00000005] Http Host: [localhost:7224]
+2022-11-29 10:41:15.829 +05:00 [INFO] [0HMMHPH8HTIKT:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2022-11-29 10:41:34.853 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 10:41:34.858 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 10:41:34.858 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 10:41:34.858 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 10:41:35.229 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 10:41:35.362 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 10:41:35.363 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 10:41:35.363 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 10:41:35.364 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 10:41:35.893 +05:00 [INFO] [0HMMHPHGCQNGQ:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 10:41:35.928 +05:00 [INFO] [0HMMHPHGCQNGQ:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 10:41:35.931 +05:00 [INFO] [0HMMHPHGCQNGQ:00000001] Http Connection: [::1:53051]
+2022-11-29 10:41:35.932 +05:00 [INFO] [0HMMHPHGCQNGQ:00000001] Http Scheme: [https]
+2022-11-29 10:41:35.935 +05:00 [INFO] [0HMMHPHGCQNGQ:00000001] Http Host: [localhost:7224]
+2022-11-29 10:48:02.051 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 10:48:02.057 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 10:48:02.057 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 10:48:02.057 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 10:48:02.764 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 10:48:03.052 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 10:48:03.054 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 10:48:03.056 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 10:48:03.057 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 10:48:03.620 +05:00 [INFO] [0HMMHPL3SBVK0:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 10:48:03.661 +05:00 [INFO] [0HMMHPL3SBVK0:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 10:48:03.667 +05:00 [INFO] [0HMMHPL3SBVK0:00000001] Http Connection: [::1:64861]
+2022-11-29 10:48:03.670 +05:00 [INFO] [0HMMHPL3SBVK0:00000001] Http Scheme: [https]
+2022-11-29 10:48:03.672 +05:00 [INFO] [0HMMHPL3SBVK0:00000001] Http Host: [localhost:7224]
+2022-11-29 10:48:17.497 +05:00 [INFO] [0HMMHPL3SBVK0:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-29 10:48:19.335 +05:00 [INFO] [0HMMHPL3SBVK0:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 10:48:22.007 +05:00 [INFO] [0HMMHPL3SBVK0:00000005] Http Connection: [::1:64861]
+2022-11-29 10:48:22.008 +05:00 [INFO] [0HMMHPL3SBVK0:00000005] Http Scheme: [https]
+2022-11-29 10:48:22.009 +05:00 [INFO] [0HMMHPL3SBVK0:00000005] Http Host: [localhost:7224]
+2022-11-29 10:49:07.981 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 28207.5157ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 10:49:08.058 +05:00 [INFO] [0HMMHPL3SBVK0:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2022-11-29 10:49:20.793 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 10:49:20.798 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 10:49:20.798 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 10:49:20.798 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 10:49:21.091 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 10:49:21.270 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 10:49:21.273 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 10:49:21.274 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 10:49:21.275 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 10:49:22.459 +05:00 [INFO] [0HMMHPLR9O083:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 10:49:22.508 +05:00 [INFO] [0HMMHPLR9O083:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 10:49:22.514 +05:00 [INFO] [0HMMHPLR9O083:00000001] Http Connection: [::1:51002]
+2022-11-29 10:49:22.515 +05:00 [INFO] [0HMMHPLR9O083:00000001] Http Scheme: [https]
+2022-11-29 10:49:22.516 +05:00 [INFO] [0HMMHPLR9O083:00000001] Http Host: [localhost:7224]
+2022-11-29 10:49:39.511 +05:00 [INFO] [0HMMHPLR9O083:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-29 10:49:39.514 +05:00 [INFO] [0HMMHPLR9O083:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 10:49:39.516 +05:00 [INFO] [0HMMHPLR9O083:00000005] Http Connection: [::1:51002]
+2022-11-29 10:49:39.517 +05:00 [INFO] [0HMMHPLR9O083:00000005] Http Scheme: [https]
+2022-11-29 10:49:39.518 +05:00 [INFO] [0HMMHPLR9O083:00000005] Http Host: [localhost:7224]
+2022-11-29 10:49:39.680 +05:00 [INFO] [0HMMHPLR9O083:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2022-11-29 10:55:02.447 +05:00 [INFO] [0HMMHPLR9O084:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-29 10:55:02.450 +05:00 [INFO] [0HMMHPLR9O084:00000001] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 10:55:02.457 +05:00 [INFO] [0HMMHPLR9O084:00000001] Http Connection: [::1:62820]
+2022-11-29 10:55:02.460 +05:00 [INFO] [0HMMHPLR9O084:00000001] Http Scheme: [https]
+2022-11-29 10:55:02.464 +05:00 [INFO] [0HMMHPLR9O084:00000001] Http Host: [localhost:7224]
+2022-11-29 10:55:02.646 +05:00 [INFO] [0HMMHPLR9O084:00000001] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-29 10:55:02.666 +05:00 [INFO] [0HMMHPLR9O084:00000001] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-29 10:55:19.398 +05:00 [INFO] [0HMMHPLR9O084:00000001] Received HTTP response headers after 16725.2278ms - 200
+2022-11-29 10:55:19.406 +05:00 [INFO] [0HMMHPLR9O084:00000001] End processing HTTP request after 16777.1157ms - 200
+2022-11-29 10:55:19.435 +05:00 [INFO] [0HMMHPLR9O084:00000001] Calling Card service to get card
+2022-11-29 10:55:19.437 +05:00 [INFO] [0HMMHPLR9O084:00000001] [GetCard] method of card called.
+2022-11-29 10:55:19.438 +05:00 [INFO] [0HMMHPLR9O084:00000001] Starting span WITH context in span lib
+2022-11-29 10:55:22.704 +05:00 [INFO] [0HMMHPLR9O084:00000001] Response Body: {
+  "responseCode": "199",
+  "stackTrace": "   at Services.BusinessLogic.Card.GetCard(CardRequest request) in D:\\TeamArchitects\\code\\dotnet6\\Services\\BusinessLogic\\Card.cs:line 58\r\n   at DigitalBanking.Modules.CardModule.getCardsViaAPI(String customerId, Card cardService, IHttpClientFactory httpClientFactory) in D:\\TeamArchitects\\code\\dotnet6\\AppNet6\\Modules\\CardModule.cs:line 57",
+  "exceptionMessage": "Object reference not set to an instance of an object.",
+  "message": "Failed to process request."
+}
+2022-11-29 11:14:11.585 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 11:14:11.590 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 11:14:11.590 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 11:14:11.590 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 11:14:11.960 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 11:14:12.446 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 11:14:12.447 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 11:14:12.448 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 11:14:12.449 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 11:14:12.819 +05:00 [INFO] [0HMMHQ3NGPSSP:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 11:14:12.852 +05:00 [INFO] [0HMMHQ3NGPSSP:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 11:14:12.855 +05:00 [INFO] [0HMMHQ3NGPSSP:00000001] Http Connection: [::1:53152]
+2022-11-29 11:14:12.855 +05:00 [INFO] [0HMMHQ3NGPSSP:00000001] Http Scheme: [https]
+2022-11-29 11:14:12.856 +05:00 [INFO] [0HMMHQ3NGPSSP:00000001] Http Host: [localhost:7224]
+2022-11-29 11:23:08.435 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 11:23:08.443 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 11:23:08.443 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 11:23:08.443 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 11:23:08.844 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 11:23:09.080 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 11:23:09.082 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 11:23:09.082 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 11:23:09.084 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 11:23:09.952 +05:00 [INFO] [0HMMHQ8NK0EDK:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 11:23:09.991 +05:00 [INFO] [0HMMHQ8NK0EDK:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 11:23:09.995 +05:00 [INFO] [0HMMHQ8NK0EDK:00000001] Http Connection: [::1:55106]
+2022-11-29 11:23:09.996 +05:00 [INFO] [0HMMHQ8NK0EDK:00000001] Http Scheme: [https]
+2022-11-29 11:23:09.998 +05:00 [INFO] [0HMMHQ8NK0EDK:00000001] Http Host: [localhost:7224]
+2022-11-29 11:23:13.603 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 11:23:13.612 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 11:23:13.612 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 11:23:13.612 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 11:23:14.356 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 11:23:14.510 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 11:23:14.510 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 11:23:14.511 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 11:23:14.511 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 11:23:15.252 +05:00 [INFO] [0HMMHQ8P80UI7:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 11:23:15.284 +05:00 [INFO] [0HMMHQ8P80UI7:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 11:23:15.288 +05:00 [INFO] [0HMMHQ8P80UI7:00000001] Http Connection: [::1:55138]
+2022-11-29 11:23:15.289 +05:00 [INFO] [0HMMHQ8P80UI7:00000001] Http Scheme: [https]
+2022-11-29 11:23:15.290 +05:00 [INFO] [0HMMHQ8P80UI7:00000001] Http Host: [localhost:7224]
+2022-11-29 11:28:56.226 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 11:28:56.230 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 11:28:56.230 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 11:28:56.230 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 11:28:56.549 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 11:28:56.741 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 11:28:56.748 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 11:28:56.749 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 11:28:56.756 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 11:28:57.366 +05:00 [INFO] [0HMMHQBV79IK8:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 11:28:57.395 +05:00 [INFO] [0HMMHQBV79IK8:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 11:28:57.398 +05:00 [INFO] [0HMMHQBV79IK8:00000001] Http Connection: [::1:56553]
+2022-11-29 11:28:57.399 +05:00 [INFO] [0HMMHQBV79IK8:00000001] Http Scheme: [https]
+2022-11-29 11:28:57.400 +05:00 [INFO] [0HMMHQBV79IK8:00000001] Http Host: [localhost:7224]
+2022-11-29 11:30:53.245 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 11:30:53.255 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 11:30:53.255 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 11:30:53.255 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 11:30:53.770 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 11:30:53.927 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 11:30:53.928 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 11:30:53.928 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 11:30:53.929 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 11:30:55.300 +05:00 [INFO] [0HMMHQD26DE1U:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 11:30:55.350 +05:00 [INFO] [0HMMHQD26DE1U:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 11:30:55.356 +05:00 [INFO] [0HMMHQD26DE1U:00000001] Http Connection: [::1:57067]
+2022-11-29 11:30:55.357 +05:00 [INFO] [0HMMHQD26DE1U:00000001] Http Scheme: [https]
+2022-11-29 11:30:55.358 +05:00 [INFO] [0HMMHQD26DE1U:00000001] Http Host: [localhost:7224]
+2022-11-29 11:33:23.544 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 11:33:23.551 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 11:33:23.551 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 11:33:23.551 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 11:33:24.058 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 11:33:24.188 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 11:33:24.191 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 11:33:24.192 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 11:33:24.193 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 11:33:25.351 +05:00 [INFO] [0HMMHQEEUPM3E:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 11:33:25.380 +05:00 [INFO] [0HMMHQEEUPM3E:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 11:33:25.385 +05:00 [INFO] [0HMMHQEEUPM3E:00000001] Http Connection: [::1:55532]
+2022-11-29 11:33:25.386 +05:00 [INFO] [0HMMHQEEUPM3E:00000001] Http Scheme: [https]
+2022-11-29 11:33:25.388 +05:00 [INFO] [0HMMHQEEUPM3E:00000001] Http Host: [localhost:7224]
+2022-11-29 11:33:56.373 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 11:33:56.386 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 11:33:56.386 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 11:33:56.387 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 11:33:56.918 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 11:33:57.073 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 11:33:57.074 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 11:33:57.074 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 11:33:57.074 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 11:33:57.829 +05:00 [INFO] [0HMMHQEOP2MQP:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 11:33:57.860 +05:00 [INFO] [0HMMHQEOP2MQP:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 11:33:57.865 +05:00 [INFO] [0HMMHQEOP2MQP:00000001] Http Connection: [::1:55851]
+2022-11-29 11:33:57.865 +05:00 [INFO] [0HMMHQEOP2MQP:00000001] Http Scheme: [https]
+2022-11-29 11:33:57.866 +05:00 [INFO] [0HMMHQEOP2MQP:00000001] Http Host: [localhost:7224]
+2022-11-29 11:36:43.161 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 11:36:43.168 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 11:36:43.168 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 11:36:43.168 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 11:36:43.651 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 11:36:43.884 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 11:36:43.887 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 11:36:43.888 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 11:36:43.890 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 11:36:44.753 +05:00 [INFO] [0HMMHQGAESCDA:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 11:36:44.790 +05:00 [INFO] [0HMMHQGAESCDA:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 11:36:44.794 +05:00 [INFO] [0HMMHQGAESCDA:00000001] Http Connection: [::1:56601]
+2022-11-29 11:36:44.794 +05:00 [INFO] [0HMMHQGAESCDA:00000001] Http Scheme: [https]
+2022-11-29 11:36:44.796 +05:00 [INFO] [0HMMHQGAESCDA:00000001] Http Host: [localhost:7224]
+2022-11-29 11:37:26.583 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 11:37:26.590 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 11:37:26.590 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 11:37:26.590 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 11:37:26.927 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 11:37:27.179 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 11:37:27.180 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 11:37:27.181 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 11:37:27.181 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 11:37:27.976 +05:00 [INFO] [0HMMHQGNBL7O9:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 11:37:28.002 +05:00 [INFO] [0HMMHQGNBL7O9:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 11:37:28.006 +05:00 [INFO] [0HMMHQGNBL7O9:00000001] Http Connection: [::1:56761]
+2022-11-29 11:37:28.007 +05:00 [INFO] [0HMMHQGNBL7O9:00000001] Http Scheme: [https]
+2022-11-29 11:37:28.010 +05:00 [INFO] [0HMMHQGNBL7O9:00000001] Http Host: [localhost:7224]
+2022-11-29 11:37:39.444 +05:00 [INFO] [0HMMHQGNBL7O9:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-29 11:37:39.461 +05:00 [INFO] [0HMMHQGNBL7O9:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 11:37:39.465 +05:00 [INFO] [0HMMHQGNBL7O9:00000005] Http Connection: [::1:56761]
+2022-11-29 11:37:39.466 +05:00 [INFO] [0HMMHQGNBL7O9:00000005] Http Scheme: [https]
+2022-11-29 11:37:39.467 +05:00 [INFO] [0HMMHQGNBL7O9:00000005] Http Host: [localhost:7224]
+2022-11-29 11:37:47.837 +05:00 [INFO] [0HMMHQGNBL7O9:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2022-11-29 11:37:59.018 +05:00 [INFO] [0HMMHQGNBL7O9:00000007] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-29 11:37:59.022 +05:00 [INFO] [0HMMHQGNBL7O9:00000007] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 11:37:59.025 +05:00 [INFO] [0HMMHQGNBL7O9:00000007] Http Connection: [::1:56761]
+2022-11-29 11:37:59.026 +05:00 [INFO] [0HMMHQGNBL7O9:00000007] Http Scheme: [https]
+2022-11-29 11:37:59.028 +05:00 [INFO] [0HMMHQGNBL7O9:00000007] Http Host: [localhost:7224]
+2022-11-29 11:37:59.116 +05:00 [INFO] [0HMMHQGNBL7O9:00000007] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-29 11:37:59.126 +05:00 [INFO] [0HMMHQGNBL7O9:00000007] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-29 11:38:22.689 +05:00 [INFO] [0HMMHQGNBL7O9:00000007] Received HTTP response headers after 23559.8245ms - 200
+2022-11-29 11:38:22.696 +05:00 [INFO] [0HMMHQGNBL7O9:00000007] End processing HTTP request after 23584.6754ms - 200
+2022-11-29 11:38:22.710 +05:00 [INFO] [0HMMHQGNBL7O9:00000007] Calling Card service to get card
+2022-11-29 11:38:22.712 +05:00 [INFO] [0HMMHQGNBL7O9:00000007] [GetCard] method of card called.
+2022-11-29 11:38:22.714 +05:00 [INFO] [0HMMHQGNBL7O9:00000007] Starting span WITH context in span lib
+2022-11-29 11:38:22.743 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 19186.525ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 11:46:59.389 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 11:46:59.408 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 11:46:59.408 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 11:46:59.408 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 11:46:59.844 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 11:46:59.984 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 11:46:59.984 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 11:46:59.985 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 11:46:59.985 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 11:47:00.864 +05:00 [INFO] [0HMMHQM22RMA3:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 11:47:00.901 +05:00 [INFO] [0HMMHQM22RMA3:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 11:47:00.906 +05:00 [INFO] [0HMMHQM22RMA3:00000001] Http Connection: [::1:51967]
+2022-11-29 11:47:00.908 +05:00 [INFO] [0HMMHQM22RMA3:00000001] Http Scheme: [https]
+2022-11-29 11:47:00.911 +05:00 [INFO] [0HMMHQM22RMA3:00000001] Http Host: [localhost:7224]
+2022-11-29 11:47:08.442 +05:00 [INFO] [0HMMHQM22RMA3:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-29 11:47:08.444 +05:00 [INFO] [0HMMHQM22RMA3:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 11:47:08.445 +05:00 [INFO] [0HMMHQM22RMA3:00000005] Http Connection: [::1:51967]
+2022-11-29 11:47:08.445 +05:00 [INFO] [0HMMHQM22RMA3:00000005] Http Scheme: [https]
+2022-11-29 11:47:08.446 +05:00 [INFO] [0HMMHQM22RMA3:00000005] Http Host: [localhost:7224]
+2022-11-29 11:47:08.582 +05:00 [INFO] [0HMMHQM22RMA3:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2022-11-29 11:47:30.534 +05:00 [INFO] [0HMMHQM22RMA3:00000007] Http Method: [GET], Protoclol [HTTP/2], Path [/v2/Cards], Request Body: []
+2022-11-29 11:47:30.537 +05:00 [INFO] [0HMMHQM22RMA3:00000007] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 11:47:30.548 +05:00 [INFO] [0HMMHQM22RMA3:00000007] Http Connection: [::1:51967]
+2022-11-29 11:47:30.549 +05:00 [INFO] [0HMMHQM22RMA3:00000007] Http Scheme: [https]
+2022-11-29 11:47:30.550 +05:00 [INFO] [0HMMHQM22RMA3:00000007] Http Host: [localhost:7224]
+2022-11-29 11:47:30.613 +05:00 [INFO] [0HMMHQM22RMA3:00000007] Start processing HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-29 11:47:30.620 +05:00 [INFO] [0HMMHQM22RMA3:00000007] Sending HTTP request GET "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches"
+2022-11-29 11:47:31.316 +05:00 [INFO] [0HMMHQM22RMA3:00000007] Received HTTP response headers after 691.9632ms - 200
+2022-11-29 11:47:31.322 +05:00 [INFO] [0HMMHQM22RMA3:00000007] End processing HTTP request after 715.2972ms - 200
+2022-11-29 11:47:31.331 +05:00 [INFO] [0HMMHQM22RMA3:00000007] Calling Card service to get card
+2022-11-29 11:47:31.333 +05:00 [INFO] [0HMMHQM22RMA3:00000007] [GetCard] method of card called.
+2022-11-29 11:47:31.335 +05:00 [INFO] [0HMMHQM22RMA3:00000007] Starting span WITH context in span lib
+2022-11-29 11:47:38.123 +05:00 [INFO] [0HMMHQM22RMA3:00000007] Response Body: {
+  "responseCode": "199",
+  "stackTrace": "   at Services.BusinessLogic.Card.GetCard(CardRequest request) in D:\\TeamArchitects\\code\\dotnet6\\Services\\BusinessLogic\\Card.cs:line 58\r\n   at DigitalBanking.Modules.CardModule.getCardsViaAPI(String customerId, Card cardService, IHttpClientFactory httpClientFactory) in D:\\TeamArchitects\\code\\dotnet6\\AppNet6\\Modules\\CardModule.cs:line 57",
+  "exceptionMessage": "Object reference not set to an instance of an object.",
+  "message": "Failed to process request."
+}
+2022-11-29 11:54:13.260 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 11:54:13.264 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 11:54:13.264 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 11:54:13.264 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 11:54:13.627 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 11:54:13.908 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 11:54:13.911 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 11:54:13.912 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 11:54:13.912 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 11:54:14.262 +05:00 [INFO] [0HMMHQQ390I8G:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 11:54:14.294 +05:00 [INFO] [0HMMHQQ390I8G:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 11:54:14.298 +05:00 [INFO] [0HMMHQQ390I8G:00000001] Http Connection: [::1:53422]
+2022-11-29 11:54:14.299 +05:00 [INFO] [0HMMHQQ390I8G:00000001] Http Scheme: [https]
+2022-11-29 11:54:14.302 +05:00 [INFO] [0HMMHQQ390I8G:00000001] Http Host: [localhost:7224]
+2022-11-29 11:54:17.188 +05:00 [INFO] [0HMMHQQ390I8G:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-29 11:54:17.189 +05:00 [INFO] [0HMMHQQ390I8G:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 11:54:17.191 +05:00 [INFO] [0HMMHQQ390I8G:00000005] Http Connection: [::1:53422]
+2022-11-29 11:54:17.192 +05:00 [INFO] [0HMMHQQ390I8G:00000005] Http Scheme: [https]
+2022-11-29 11:54:17.192 +05:00 [INFO] [0HMMHQQ390I8G:00000005] Http Host: [localhost:7224]
+2022-11-29 11:54:17.324 +05:00 [INFO] [0HMMHQQ390I8G:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2022-11-29 12:17:53.838 +05:00 [DBUG] [] Found validator UserValidator
+2022-11-29 12:17:53.843 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2022-11-29 12:17:53.843 +05:00 [DBUG] [] Found module DigitalBanking.Modules.CardModule
+2022-11-29 12:17:53.843 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2022-11-29 12:17:54.244 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2022-11-29 12:17:54.477 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2022-11-29 12:17:54.478 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2022-11-29 12:17:54.479 +05:00 [INFO] [] Hosting environment: Development
+2022-11-29 12:17:54.479 +05:00 [INFO] [] Content root path: D:\TeamArchitects\code\dotnet6\AppNet6\
+2022-11-29 12:17:55.504 +05:00 [INFO] [0HMMHR7AN7FFP:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2022-11-29 12:17:55.543 +05:00 [INFO] [0HMMHR7AN7FFP:00000001] Http Headers: [{"Accept":["text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade-Insecure-Requests":["1"],"sec-fetch-site":["none"],"sec-fetch-mode":["navigate"],"sec-fetch-user":["?1"],"sec-fetch-dest":["document"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"]}]
+2022-11-29 12:17:55.547 +05:00 [INFO] [0HMMHR7AN7FFP:00000001] Http Connection: [::1:55246]
+2022-11-29 12:17:55.550 +05:00 [INFO] [0HMMHR7AN7FFP:00000001] Http Scheme: [https]
+2022-11-29 12:17:55.554 +05:00 [INFO] [0HMMHR7AN7FFP:00000001] Http Host: [localhost:7224]
+2022-11-29 12:18:18.621 +05:00 [INFO] [0HMMHR7AN7FFP:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2022-11-29 12:18:18.625 +05:00 [INFO] [0HMMHR7AN7FFP:00000005] Http Headers: [{"Accept":["application/json,*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 12:18:18.644 +05:00 [INFO] [0HMMHR7AN7FFP:00000005] Http Connection: [::1:55246]
+2022-11-29 12:18:18.645 +05:00 [INFO] [0HMMHR7AN7FFP:00000005] Http Scheme: [https]
+2022-11-29 12:18:18.646 +05:00 [INFO] [0HMMHR7AN7FFP:00000005] Http Host: [localhost:7224]
+2022-11-29 12:18:29.444 +05:00 [EROR] [] Health check oracle with status "Unhealthy" completed after 18347.1407ms with message 'null'
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at System.Data.Common.DbConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.Oracle.OracleHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken)
+2022-11-29 12:18:29.474 +05:00 [INFO] [0HMMHR7AN7FFP:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v2/Cards": {
+      "get": {
+        "tags": [
+          "CardModule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
+2022-11-29 12:18:51.598 +05:00 [INFO] [0HMMHR7AN7FFP:00000007] Http Method: [POST], Protoclol [HTTP/2], Path [/api/v1/users], Request Body: [{
+  "name": "string",
+  "contactNumber": "string"
+}]
+2022-11-29 12:18:51.600 +05:00 [INFO] [0HMMHR7AN7FFP:00000007] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["POST"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Content-Type":["application/json"],"Origin":["https://localhost:7224"],"Referer":["https://localhost:7224/index.html"],"Content-Length":["51"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 12:18:51.603 +05:00 [INFO] [0HMMHR7AN7FFP:00000007] Http Connection: [::1:55246]
+2022-11-29 12:18:51.604 +05:00 [INFO] [0HMMHR7AN7FFP:00000007] Http Scheme: [https]
+2022-11-29 12:18:51.606 +05:00 [INFO] [0HMMHR7AN7FFP:00000007] Http Host: [localhost:7224]
+2022-11-29 12:18:55.915 +05:00 [INFO] [0HMMHR7AN7FFP:00000007] Get User called.
+2022-11-29 12:18:55.949 +05:00 [INFO] [0HMMHR7AN7FFP:00000007] Response Body: {
+  "name": "string",
+  "contactNumber": "string"
+}
+2022-11-29 12:19:05.421 +05:00 [INFO] [0HMMHR7AN7FFP:00000009] Http Method: [GET], Protoclol [HTTP/2], Path [/api/v1/users], Request Body: []
+2022-11-29 12:19:05.424 +05:00 [INFO] [0HMMHR7AN7FFP:00000009] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 12:19:05.427 +05:00 [INFO] [0HMMHR7AN7FFP:00000009] Http Connection: [::1:55246]
+2022-11-29 12:19:05.427 +05:00 [INFO] [0HMMHR7AN7FFP:00000009] Http Scheme: [https]
+2022-11-29 12:19:05.428 +05:00 [INFO] [0HMMHR7AN7FFP:00000009] Http Host: [localhost:7224]
+2022-11-29 12:19:07.804 +05:00 [INFO] [0HMMHR7AN7FFP:00000009] module: 'UserModule' Message = Get users v1 called.)
+2022-11-29 12:19:07.810 +05:00 [INFO] [0HMMHR7AN7FFP:00000009] Response Body: {
+  "name": "anam",
+  "contact": "03322222222"
+}
+2022-11-29 12:19:37.655 +05:00 [INFO] [0HMMHR7AN7FFP:0000000B] Http Method: [GET], Protoclol [HTTP/2], Path [/api/v1/users], Request Body: []
+2022-11-29 12:19:37.656 +05:00 [INFO] [0HMMHR7AN7FFP:0000000B] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 12:19:37.659 +05:00 [INFO] [0HMMHR7AN7FFP:0000000B] Http Connection: [::1:55246]
+2022-11-29 12:19:37.693 +05:00 [INFO] [0HMMHR7AN7FFP:0000000B] Http Scheme: [https]
+2022-11-29 12:19:37.694 +05:00 [INFO] [0HMMHR7AN7FFP:0000000B] Http Host: [localhost:7224]
+2022-11-29 12:19:44.296 +05:00 [INFO] [0HMMHR7AN7FFP:0000000B] module: 'UserModule' Message = Get users v1 called.)
+2022-11-29 12:19:44.301 +05:00 [INFO] [0HMMHR7AN7FFP:0000000B] Response Body: {
+  "name": "anam",
+  "contact": "03322222222"
+}
+2022-11-29 12:20:02.402 +05:00 [INFO] [0HMMHR7AN7FFP:0000000D] Http Method: [GET], Protoclol [HTTP/2], Path [/api/v1/users], Request Body: []
+2022-11-29 12:20:02.403 +05:00 [INFO] [0HMMHR7AN7FFP:0000000D] Http Headers: [{"Accept":["*/*"],"Host":["localhost:7224"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"],":method":["GET"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["en-US,en;q=0.9"],"Referer":["https://localhost:7224/index.html"],"sec-ch-ua":["\u0022Google Chrome\u0022;v=\u0022107\u0022, \u0022Chromium\u0022;v=\u0022107\u0022, \u0022Not=A?Brand\u0022;v=\u002224\u0022"],"sec-ch-ua-mobile":["?0"],"sec-ch-ua-platform":["\u0022Windows\u0022"],"sec-fetch-site":["same-origin"],"sec-fetch-mode":["cors"],"sec-fetch-dest":["empty"]}]
+2022-11-29 12:20:02.405 +05:00 [INFO] [0HMMHR7AN7FFP:0000000D] Http Connection: [::1:55246]
+2022-11-29 12:20:02.406 +05:00 [INFO] [0HMMHR7AN7FFP:0000000D] Http Scheme: [https]
+2022-11-29 12:20:02.407 +05:00 [INFO] [0HMMHR7AN7FFP:0000000D] Http Host: [localhost:7224]
+2022-11-29 12:20:05.488 +05:00 [INFO] [0HMMHR7AN7FFP:0000000D] module: 'UserModule' Message = Get users v1 called.)
+2022-11-29 12:20:05.490 +05:00 [INFO] [0HMMHR7AN7FFP:0000000D] Response Body: {
+  "name": "anam",
+  "contact": "03322222222"
+}
